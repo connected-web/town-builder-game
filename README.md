@@ -1,3 +1,3 @@
 # Town Builder Game
 
-Buiild a town and create wealth
+Build a town and create wealth

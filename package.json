@@ -1,0 +1,27 @@
+{
+  "name": "town-builder-game",
+  "version": "1.0.0",
+  "description": "Build a town and create wealth",
+  "main": "start.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connected-web/town-builder-game.git"
+  },
+  "keywords": [
+    "town",
+    "builder",
+    "board",
+    "game"
+  ],
+  "author": "John Beech",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/connected-web/town-builder-game/issues"
+  },
+  "homepage": "https://github.com/connected-web/town-builder-game#readme"
+}
