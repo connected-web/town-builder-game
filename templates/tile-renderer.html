@@ -21,7 +21,48 @@
 
         }
         .symbol {
-
+          display: inline-block;
+          width: 160px;
+          height: 160px;
+        }
+        .symbol.base {
+          background: #b3a77d;
+          width: 160px;
+          height: 160px;
+          border-radius: 80px;
+          margin-left: -80px;
+        }
+        .layout {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 640px;
+          width: 640px;
+        }
+        .layout.transform-three .symbol.s0 {
+          display: block;
+          position: absolute;
+          top: 40px;
+          left: 120px;
+        }
+        .layout.transform-three .symbol.s1 {
+          display: block;
+          position: absolute;
+          top: 40px;
+          left: 320px;
+        }
+        .layout.transform-three .symbol.s2 {
+          display: block;
+          position: absolute;
+          top: 40px;
+          left: 520px;
+        }
+        .layout.transform-three .symbol.s3 {
+          display: block;
+          position: absolute;
+          left: 320px;
+          bottom: 40px;
         }
 
     </style>
@@ -29,7 +70,6 @@
 
 <body>
     <h1 style="position: absolute; bottom: 10px; width: 100%">{{title}}</h1>
-    <p>{{symbolLayout}}</p>
     <div class="layers">
     {{#each layers}}
       <div class="layer {{this}}">{{this}}</div>
@@ -37,8 +77,8 @@
     </div>
     <div class="layout {{symbolLayout}}">
     {{#each symbols}}
-      <div class="symbol base {{this}}">{{this}}</div>
-      <div class="symbol icon {{this}}">{{this}}</div>
+      <div class="symbol s{{@index}} base {{this}}"></div>
+      <div class="symbol s{{@index}} icon {{this}}"></div>
     {{/each}}
     </div>
 </body>
