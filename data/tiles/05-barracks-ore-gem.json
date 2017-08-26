@@ -4,5 +4,12 @@
     "type": "castle",
     "backgroundColor": "#595068"
   },
-  "description": "If the tile has a worker, an ore token, and a gem token, then return all three to the bank and replace with a knight"
+  "description": "If the tile has a worker, an ore token, and a gem token, then return all three to the bank and replace with a knight",
+  "function": {
+    "convert": ["worker", "ore", "gem"],
+    "into": "knight"
+  },
+  "layers": [],
+  "symbols": ["worker", "ore", "gem", "knight"],
+  "symbolLayout": "transform-three"
 }

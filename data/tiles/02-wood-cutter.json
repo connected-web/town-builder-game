@@ -4,5 +4,12 @@
     "type": "industry",
     "backgroundColor": "#4e684e"
   },
-  "description": "If the tile has a worker on it, return the worker to the bank and replace with a wood token"
+  "description": "If the tile has a worker on it, return the worker to the bank and replace with a wood token",
+  "function": {
+    "convert": ["worker"],
+    "into": "wood"
+  },
+  "layers": [],
+  "symbols": ["worker", "wood"],
+  "symbolLayout": "transform-one"
 }

@@ -4,5 +4,13 @@
     "type": "castle",
     "backgroundColor": "#595068"
   },
-  "description": "If this tile has a knight, and there is a player with less total knights than you, then steal any two resources from that player, and return this knight to the bank"
+  "description": "If this tile has a knight, and there is a player with less total knights than you, then steal any two resources from that player, and return this knight to the bank",
+  "function": {
+    "convert": ["knight"],
+    "into": [],
+    "steal": true
+  },
+  "layers": [],
+  "symbols": ["knight"],
+  "symbolLayout": "activate-one"
 }

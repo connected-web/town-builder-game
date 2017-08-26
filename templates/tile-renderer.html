@@ -16,6 +16,13 @@
 
 <body>
     <h1 style="position: absolute; bottom: 10px; width: 100%">{{title}}</h1>
+    <p>{{symbolLayout}}</p>
+    {{#each layers}}
+      <b>{{this}}</b>
+    {{/each}}
+    {{#each symbols}}
+      <b>{{this}}</b>
+    {{/each}}
 </body>
 
 </html>

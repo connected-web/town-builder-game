@@ -4,5 +4,12 @@
     "type": "industry",
     "backgroundColor": "#4e684e"
   },
-  "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token"
+  "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+  "function": {
+    "convert": ["worker"],
+    "into": "ore"
+  },
+  "layers": [],
+  "symbols": ["worker", "ore"],
+  "symbolLayout": "transform-one"
 }
