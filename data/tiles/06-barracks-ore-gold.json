@@ -1,0 +1,8 @@
+{
+  "title": "Barracks (Ore, Gold)",
+  "theme": {
+    "type": "castle",
+    "backgroundColor": "#595068"
+  },
+  "description": "If the tile has a worker, an ore token, and a gold token, then return all three to the bank and replace with a knight"
+}

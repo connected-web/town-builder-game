@@ -1,0 +1,8 @@
+{
+  "title": "Starter Tile",
+  "theme": {
+    "type": "town",
+    "backgroundColor": "#686652"
+  },
+  "description": "If the tile is empty, generate one worker on this tile at the start of your turn and place it on this tile"
+}

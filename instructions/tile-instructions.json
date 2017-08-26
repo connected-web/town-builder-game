@@ -1,0 +1,72 @@
+[
+  {
+    "asset": "01-starter-tile.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/01-starter-tile.json"
+    }
+  },
+  {
+    "asset": "02-wood-cutter.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/02-wood-cutter.json"
+    }
+  },
+  {
+    "asset": "03-mine.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/03-mine.json"
+    }
+  },
+  {
+    "asset": "04-farm.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/04-farm.json"
+    }
+  },
+  {
+    "asset": "05-barracks-ore-gem.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/05-barracks-ore-gem.json"
+    }
+  },
+  {
+    "asset": "06-barracks-ore-gold.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/06-barracks-ore-gold.json"
+    }
+  },
+  {
+    "asset": "07-fort.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/07-fort.json"
+    }
+  }
+]

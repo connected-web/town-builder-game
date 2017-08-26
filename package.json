@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "Build a town and create wealth",
   "main": "start.js",
-  "dependencies": {},
+  "dependencies": {
+    "glob": "^7.1.2",
+    "node-hag": "^1.3.1",
+    "promise-path": "^1.2.4"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "write-instructions": "node write-instructions.js",
+    "build": "npm run write-instructions && node node_modules/node-hag/bin/hag generate"
   },
   "repository": {
     "type": "git",
