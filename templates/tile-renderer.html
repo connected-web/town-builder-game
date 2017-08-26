@@ -11,18 +11,36 @@
           text-align: center;
           font-family: sans-serif;
         }
+        .layers {
+
+        }
+        .layer {
+
+        }
+        .symbols {
+
+        }
+        .symbol {
+
+        }
+
     </style>
 </head>
 
 <body>
     <h1 style="position: absolute; bottom: 10px; width: 100%">{{title}}</h1>
     <p>{{symbolLayout}}</p>
+    <div class="layers">
     {{#each layers}}
-      <b>{{this}}</b>
+      <div class="layer {{this}}">{{this}}</div>
     {{/each}}
+    </div>
+    <div class="layout {{symbolLayout}}">
     {{#each symbols}}
-      <b>{{this}}</b>
+      <div class="symbol base {{this}}">{{this}}</div>
+      <div class="symbol icon {{this}}">{{this}}</div>
     {{/each}}
+    </div>
 </body>
 
 </html>
