@@ -11,6 +11,6 @@
     "steal": true
   },
   "layers": [],
-  "symbols": ["knight"],
+  "symbols": ["knight", "steal"],
   "symbolLayout": "activate-one"
 }
