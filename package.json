@@ -10,7 +10,14 @@
   },
   "devDependencies": {},
   "watch": {
-    "build": "{data,templates}"
+    "build": {
+        "patterns": [
+          "data",
+          "templates"
+        ],
+        "extensions": "json,html",
+        "quiet": false
+      }
   },
   "scripts": {
     "test": "mocha",
