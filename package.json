@@ -9,10 +9,14 @@
     "promise-path": "^1.2.4"
   },
   "devDependencies": {},
+  "watch": {
+    "build": "{data,templates}"
+  },
   "scripts": {
     "test": "mocha",
     "write-instructions": "node write-instructions.js",
-    "build": "npm run write-instructions && node node_modules/node-hag/bin/hag generate"
+    "build": "npm run write-instructions && node node_modules/node-hag/bin/hag generate",
+    "watch": "npm-watch"
   },
   "repository": {
     "type": "git",
