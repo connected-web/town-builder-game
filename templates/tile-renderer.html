@@ -57,6 +57,27 @@
           height: 640px;
           width: 640px;
         }
+        .transform.arrow {
+          width: 220px;
+          height: 100px;
+          margin-left: -110px;
+          margin-top: -50px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: contain;
+          background-image: url('/data/assets/transform-arrow.png');
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: none;
+        }
+        .layout.transform-three .transform.arrow {
+          display: block;
+          -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+          left: 50%;
+          top: 50%;
+        }
         .layout.transform-three .symbol.s0 {
           display: block;
           position: absolute;
@@ -126,6 +147,7 @@
     {{#each symbols}}
       <div class="symbol s{{@index}} icon {{this}}" style="background-image: url('/data/assets/{{this}}.png')"></div>
     {{/each}}
+    <div class="transform arrow"></div>
     </div>
 </body>
 
