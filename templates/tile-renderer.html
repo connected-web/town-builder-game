@@ -31,8 +31,6 @@
         }
         .symbol {
           display: inline-block;
-          width: 160px;
-          height: 160px;
         }
         .symbol.base {
           background: #b3a77d;
@@ -40,6 +38,16 @@
           height: 200px;
           border-radius: 100px;
           margin-left: -100px;
+        }
+        .symbol.icon {
+          width: 140px;
+          height: 140px;
+          margin-left: -70px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: contain;
         }
         .layout {
           display: block;
@@ -115,7 +123,9 @@
     <div class="layout {{symbolLayout}}">
     {{#each symbols}}
       <div class="symbol s{{@index}} base {{this}}"></div>
-      <div class="symbol s{{@index}} icon {{this}}"></div>
+    {{/each}}
+    {{#each symbols}}
+      <div class="symbol s{{@index}} icon {{this}}" style="background-image: url('/data/assets/{{this}}.png')"></div>
     {{/each}}
     </div>
 </body>

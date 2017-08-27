@@ -10,6 +10,6 @@
     "into": "knight"
   },
   "layers": [],
-  "symbols": ["worker", "ore", "gem", "knight"],
+  "symbols": ["worker-meeple", "ore-block", "gem-block", "knight-meeple"],
   "symbolLayout": "transform-three"
 }

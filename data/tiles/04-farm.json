@@ -10,6 +10,6 @@
     "into": "food"
   },
   "layers": [],
-  "symbols": ["worker", "food"],
+  "symbols": ["worker-meeple", "food-block"],
   "symbolLayout": "transform-one"
 }

@@ -11,6 +11,6 @@
     "steal": true
   },
   "layers": [],
-  "symbols": ["knight", "steal"],
+  "symbols": ["knight-meeple", "steal-action"],
   "symbolLayout": "activate-one"
 }
