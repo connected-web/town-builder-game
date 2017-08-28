@@ -10,6 +10,6 @@
     "into": "ore"
   },
   "layers": [],
-  "symbols": ["worker-meeple", "ore-block"],
+  "symbols": ["worker-meeple", "convert-to", "ore-block"],
   "symbolLayout": "transform-one"
 }

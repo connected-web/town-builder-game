@@ -10,6 +10,6 @@
     "into": "wood"
   },
   "layers": [],
-  "symbols": ["worker-meeple", "wood-block"],
+  "symbols": ["worker-meeple", "convert-to", "wood-block"],
   "symbolLayout": "transform-one"
 }
