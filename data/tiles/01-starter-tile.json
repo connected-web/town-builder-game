@@ -9,7 +9,8 @@
     "spawn": "worker"
   },
   "layers": [
-    "tiles/layers/spawn-house.png",
-    "tiles/layers/plus-one-worker.png"
-  ]
+    "/data/assets/starter-house.png",
+    "/data/assets/plus-one-worker.png"
+  ],
+  "symbols": []
 }
