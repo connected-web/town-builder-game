@@ -1,5 +1,6 @@
 {
   "title": "Barracks (Ore, Gem)",
+  "code": "T05",
   "theme": {
     "type": "castle",
     "backgroundColor": "#595068"

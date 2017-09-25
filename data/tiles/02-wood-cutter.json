@@ -1,5 +1,6 @@
 {
   "title": "Wood Cutter",
+  "code": "T02",
   "theme": {
     "type": "industry",
     "backgroundColor": "#4e684e"

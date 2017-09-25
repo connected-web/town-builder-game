@@ -1,5 +1,6 @@
 {
   "title": "Starter Tile",
+  "code": "T01",
   "theme": {
     "type": "town",
     "backgroundColor": "#686652"

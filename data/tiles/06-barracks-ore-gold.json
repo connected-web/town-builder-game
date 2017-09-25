@@ -1,5 +1,6 @@
 {
   "title": "Barracks (Ore, Gold)",
+  "code": "T06",
   "theme": {
     "type": "castle",
     "backgroundColor": "#595068"
