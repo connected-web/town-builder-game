@@ -1,0 +1,16 @@
+{
+  "title": "Bakery",
+  "code": "T08",
+  "theme": {
+    "type": "industry",
+    "backgroundColor": "#4e684e"
+  },
+  "description": "If the bakery has any food blocks on it, convert each food block to 2 gold in your bank",
+  "function": {
+    "convert": ["food"],
+    "into": ["gold", 2]
+  },
+  "layers": [],
+  "symbols": ["food-block", "convert-to", "gold-block", "x2"],
+  "symbolLayout": "transform-one-for-two"
+}

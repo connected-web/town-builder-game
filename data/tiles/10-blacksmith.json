@@ -1,0 +1,16 @@
+{
+  "title": "Blacksmith",
+  "code": "T10",
+  "theme": {
+    "type": "industry",
+    "backgroundColor": "#4e684e"
+  },
+  "description": "If the blacksmith has any iron blocks on it, convert each iron block to 2 gold in your bank",
+  "function": {
+    "convert": ["iron"],
+    "into": ["gold", 2]
+  },
+  "layers": [],
+  "symbols": ["ore-block", "convert-to", "gold-block", "x2"],
+  "symbolLayout": "transform-one-for-two"
+}
