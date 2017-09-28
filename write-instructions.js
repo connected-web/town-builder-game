@@ -23,15 +23,19 @@ var htmlTemplate = `{
   }
 }`
 
+const pp = (data) => JSON.stringify(data, null, 2)
+
 var instructions = []
 find('./data/tiles/*.json')
   .then(files => files.map(filepath => path.basename(filepath)))
   .then(files => files.map(filename => filename.slice(0, -5)))
-  .then(files => files.forEach((file) => {
+  .then(files => files.map(file => {
     createInstruction(file, tileTemplate)
     createInstruction(file, htmlTemplate)
+    return file
   }))
-  .then(() => write(outputFile, JSON.stringify(instructions, null, 2), 'utf8'))
+  .then(files => write('./data/tile-assets.json', pp(files), 'utf8'))
+  .then(() => write(outputFile, pp(instructions), 'utf8'))
   .then(result => console.log(`Created ${outputFile}`))
 
 function createInstruction(name, template) {

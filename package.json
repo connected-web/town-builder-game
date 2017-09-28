@@ -16,6 +16,9 @@
         "data",
         "templates"
       ],
+      "ignore": [
+        "data/tile-assets.json"
+      ],
       "extensions": "json,html",
       "quiet": false
     }
