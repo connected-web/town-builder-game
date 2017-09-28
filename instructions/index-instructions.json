@@ -1,0 +1,16 @@
+[
+  {
+    "asset": "tile-index.html",
+    "template": "/index-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "title": "Town Builder Tiles",
+      "type": "tiles",
+      "assets": {
+        "$ref": "/data/tile-assets.json"
+      }
+    }
+  }
+]
