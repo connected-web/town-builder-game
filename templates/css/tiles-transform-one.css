@@ -1,0 +1,25 @@
+.layout.transform-one .symbol.s0 {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 140px;
+}
+.layout.transform-one .symbol.convert-to {
+  display: block;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
+  height: 140px;
+  margin-top: -70px;
+  width: 350px;
+  margin-left: -175px;
+  background-image: url('/data/assets/transform-arrow-medium.png');
+}
+.layout.transform-one .symbol.s2 {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  left: 500px;
+}

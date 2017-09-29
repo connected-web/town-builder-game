@@ -1,0 +1,32 @@
+.layout.transform-three .symbol.convert-to {
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
+}
+.layout.transform-three .symbol.s0 {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 140px;
+}
+.layout.transform-three .symbol.s1 {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 320px;
+}
+.layout.transform-three .symbol.s2 {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 500px;
+}
+.layout.transform-three .symbol.s4 {
+  display: block;
+  position: absolute;
+  left: 320px;
+  bottom: 40px;
+}
