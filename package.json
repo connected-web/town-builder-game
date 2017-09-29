@@ -14,12 +14,13 @@
     "build": {
       "patterns": [
         "data",
-        "templates"
+        "templates",
+        "templates/css"
       ],
       "ignore": [
         "data/tile-assets.json"
       ],
-      "extensions": "json,html",
+      "extensions": "json,html,css",
       "quiet": false
     }
   },
