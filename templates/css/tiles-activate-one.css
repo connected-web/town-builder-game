@@ -1,20 +1,20 @@
 .layout.activate-one .symbol.s0 {
   display: block;
   position: absolute;
-  top: 40px;
-  left: 320px;
+  top: 25%;
+  left: 50%;
 }
 .layout.activate-one .symbol.convert-to {
   display: block;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   left: 50%;
-  top: 50%;
+  top: 48%;
   background-color: transparent;
 }
 .layout.activate-one .symbol.s2 {
   display: block;
   position: absolute;
-  bottom: 40px;
-  left: 320px;
+  top: 75%;
+  left: 50%;
 }

@@ -1,11 +1,11 @@
 {
-  "title": "Starter Tile",
+  "title": "Town Hall",
   "code": "T01",
   "theme": {
     "type": "town",
     "backgroundColor": "#686652"
   },
-  "description": "If the tile is empty, generate one worker on this tile at the start of your turn and place it on this tile",
+  "description": "If a player has claimed this tile at the end of a round, pass the player one token to this player; that player goes first on the next round",
   "function": {
     "spawn": "worker"
   },

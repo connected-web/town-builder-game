@@ -1,5 +1,5 @@
 {
-  "title": "Barracks",
+  "title": "Barracks (Gold)",
   "code": "T06",
   "theme": {
     "type": "castle",
@@ -11,6 +11,6 @@
     "into": "knight"
   },
   "layers": [],
-  "symbols": ["worker-meeple", "ore-block", "gold-block", "convert-to", "knight-meeple"],
+  "symbols": ["food-block", "ore-block", "gold-block", "convert-to", "knight-meeple"],
   "symbolLayout": "transform-three"
 }

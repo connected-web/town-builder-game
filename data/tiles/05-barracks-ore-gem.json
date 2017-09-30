@@ -1,5 +1,5 @@
 {
-  "title": "Barracks",
+  "title": "Barracks (Gem)",
   "code": "T05",
   "theme": {
     "type": "castle",
@@ -11,6 +11,6 @@
     "into": "knight"
   },
   "layers": [],
-  "symbols": ["worker-meeple", "ore-block", "gem-block", "convert-to", "knight-meeple"],
+  "symbols": ["food-block", "ore-block", "gem-block", "convert-to", "knight-meeple"],
   "symbolLayout": "transform-three"
 }
