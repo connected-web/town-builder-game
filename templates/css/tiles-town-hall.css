@@ -1,0 +1,10 @@
+.layout.town-hall .symbol.s0 {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 300px;
+  margin-left: -200px;
+  margin-top: -150px;
+}
