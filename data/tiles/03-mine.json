@@ -7,7 +7,7 @@
   "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
   "function": {
     "convert": ["worker"],
-    "into": "ore"
+    "into": "iron"
   },
   "layers": [],
   "symbols": ["worker-meeple", "convert-to", "iron-block"],

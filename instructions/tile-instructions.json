@@ -278,5 +278,45 @@
     "data": {
       "$ref": "/data/tiles/14-market-iron.json"
     }
+  },
+  {
+    "asset": "15-gem-mine-iron.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/15-gem-mine-iron.json"
+    }
+  },
+  {
+    "asset": "15-gem-mine-iron.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/15-gem-mine-iron.json"
+    }
+  },
+  {
+    "asset": "16-gem-mine.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/16-gem-mine.json"
+    }
+  },
+  {
+    "asset": "16-gem-mine.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/16-gem-mine.json"
+    }
   }
 ]

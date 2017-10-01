@@ -1,0 +1,15 @@
+{
+  "title": "Gem Mine",
+  "code": "T15",
+  "theme": {
+    "type": "industry"
+  },
+  "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+  "function": {
+    "convert": ["worker", "worker"],
+    "into": "gem"
+  },
+  "layers": [],
+  "symbols": ["worker-meeple", "worker-meeple", "convert-to", "gem-block"],
+  "symbolLayout": "transform-two"
+}
