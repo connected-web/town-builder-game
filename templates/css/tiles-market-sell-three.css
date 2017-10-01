@@ -6,26 +6,26 @@
 .layout.market-sell-three .symbol.s0 {
   display: block;
   position: absolute;
-  top: 38%;
-  left: 38%;
-}
-.layout.market-sell-three .symbol.s1.convert-to {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  left: 50%;
-  top: 50%;
-}
-.layout.market-sell-three .symbol.s2 {
-  display: block;
-  position: absolute;
   top: 25%;
   left: 71%;
 }
-.layout.market-sell-three .symbol.s3.convert-to {
+.layout.market-sell-three .symbol.s1.convert-to {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   left: 71%;
   top: 41%;
+}
+.layout.market-sell-three .symbol.s2 {
+  display: block;
+  position: absolute;
+  top: 38%;
+  left: 38%;
+}
+.layout.market-sell-three .symbol.s3.convert-to {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 50%;
+  top: 50%;
 }
 .layout.market-sell-three .symbol.s4 {
   display: block;

@@ -11,6 +11,6 @@
     "into": ["gold", 2]
   },
   "layers": [],
-  "symbols": ["ore-block", "convert-to", "gold-block", "x2"],
+  "symbols": ["iron-block", "convert-to", "gold-block", "x2"],
   "symbolLayout": "transform-one-for-two"
 }

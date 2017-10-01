@@ -1,0 +1,25 @@
+{
+  "title": "Market",
+  "code": "T13",
+  "theme": {
+    "type": "market",
+    "backgroundColor": "#D17444"
+  },
+  "description": "If the market has any iron, gold, or food blocks on it, convert each block to 1 wood in your bank",
+  "functions": [{
+      "convert": "food",
+      "into": "wood"
+    },
+    {
+      "convert": "gold",
+      "into": "wood"
+    },
+    {
+      "convert": "iron",
+      "into": "wood"
+    }
+  ],
+  "layers": [],
+  "symbols": ["food-block", "convert-to", "gold-block", "convert-to", "iron-block", "convert-to", "wood-block"],
+  "symbolLayout": "market-sell-three"
+}

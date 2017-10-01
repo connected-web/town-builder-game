@@ -3,11 +3,14 @@
   "02-wood-cutter",
   "03-mine",
   "04-farm",
-  "05-barracks-ore-gem",
-  "06-barracks-ore-gold",
+  "05-barracks-gem",
+  "06-barracks-gold",
   "07-fort",
   "08-bakery",
   "09-lumber-mill",
   "10-blacksmith",
-  "11-market-basic-goods"
+  "11-market-gold",
+  "12-market-food",
+  "13-market-wood",
+  "14-market-iron"
 ]

@@ -80,43 +80,43 @@
     }
   },
   {
-    "asset": "05-barracks-ore-gem.png",
+    "asset": "05-barracks-gem.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/05-barracks-ore-gem.json"
+      "$ref": "/data/tiles/05-barracks-gem.json"
     }
   },
   {
-    "asset": "05-barracks-ore-gem.html",
+    "asset": "05-barracks-gem.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/05-barracks-ore-gem.json"
+      "$ref": "/data/tiles/05-barracks-gem.json"
     }
   },
   {
-    "asset": "06-barracks-ore-gold.png",
+    "asset": "06-barracks-gold.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/06-barracks-ore-gold.json"
+      "$ref": "/data/tiles/06-barracks-gold.json"
     }
   },
   {
-    "asset": "06-barracks-ore-gold.html",
+    "asset": "06-barracks-gold.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/06-barracks-ore-gold.json"
+      "$ref": "/data/tiles/06-barracks-gold.json"
     }
   },
   {
@@ -200,23 +200,83 @@
     }
   },
   {
-    "asset": "11-market-basic-goods.png",
+    "asset": "11-market-gold.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/11-market-basic-goods.json"
+      "$ref": "/data/tiles/11-market-gold.json"
     }
   },
   {
-    "asset": "11-market-basic-goods.html",
+    "asset": "11-market-gold.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/11-market-basic-goods.json"
+      "$ref": "/data/tiles/11-market-gold.json"
+    }
+  },
+  {
+    "asset": "12-market-food.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/12-market-food.json"
+    }
+  },
+  {
+    "asset": "12-market-food.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/12-market-food.json"
+    }
+  },
+  {
+    "asset": "13-market-wood.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/13-market-wood.json"
+    }
+  },
+  {
+    "asset": "13-market-wood.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/13-market-wood.json"
+    }
+  },
+  {
+    "asset": "14-market-iron.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/14-market-iron.json"
+    }
+  },
+  {
+    "asset": "14-market-iron.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/14-market-iron.json"
     }
   }
 ]
