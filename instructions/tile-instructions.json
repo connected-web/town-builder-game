@@ -1,22 +1,22 @@
 [
   {
-    "asset": "01-starter-tile.png",
+    "asset": "01-town-hall.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/01-starter-tile.json"
+      "$ref": "/data/tiles/01-town-hall.json"
     }
   },
   {
-    "asset": "01-starter-tile.html",
+    "asset": "01-town-hall.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/01-starter-tile.json"
+      "$ref": "/data/tiles/01-town-hall.json"
     }
   },
   {
