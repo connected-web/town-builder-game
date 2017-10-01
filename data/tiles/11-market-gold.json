@@ -2,8 +2,7 @@
   "title": "Market",
   "code": "T11",
   "theme": {
-    "type": "market",
-    "backgroundColor": "#D17444"
+    "type": "market"
   },
   "description": "If the market has any wood, iron, or food blocks on it, convert each block to 1 gold in your bank",
   "functions": [{

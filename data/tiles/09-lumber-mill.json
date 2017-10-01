@@ -2,8 +2,7 @@
   "title": "Lumber Mill",
   "code": "T09",
   "theme": {
-    "type": "industry",
-    "backgroundColor": "#4e684e"
+    "type": "industry"
   },
   "description": "If the lumber mill has any wood blocks on it, convert each wood block to 2 gold in your bank",
   "function": {

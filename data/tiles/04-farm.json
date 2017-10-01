@@ -2,8 +2,7 @@
   "title": "Farm",
   "code": "T04",
   "theme": {
-    "type": "industry",
-    "backgroundColor": "#4e684e"
+    "type": "industry"
   },
   "description": "If the tile has a worker on it, return the worker to the bank and replace with a food token",
   "function": {

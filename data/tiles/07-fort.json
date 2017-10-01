@@ -2,8 +2,7 @@
   "title": "Fort",
   "code": "T07",
   "theme": {
-    "type": "castle",
-    "backgroundColor": "#595068"
+    "type": "castle"
   },
   "description": "If this tile has a knight, and there is a player with less total knights than you, then steal any two resources from that player, and return this knight to the bank",
   "function": {

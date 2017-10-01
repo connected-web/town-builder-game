@@ -2,8 +2,7 @@
   "title": "Barracks",
   "code": "T05",
   "theme": {
-    "type": "castle",
-    "backgroundColor": "#595068"
+    "type": "castle"
   },
   "description": "If the tile has a worker, an iron token, and a gem token, then return all three to the bank and replace with a knight",
   "function": {

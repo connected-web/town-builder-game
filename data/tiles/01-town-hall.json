@@ -2,8 +2,7 @@
   "title": "Town Hall",
   "code": "T01",
   "theme": {
-    "type": "town",
-    "backgroundColor": "#686652"
+    "type": "town"
   },
   "description": "If a player has claimed this tile at the end of a round, pass the player one token to this player; that player goes first on the next round",
   "function": {
