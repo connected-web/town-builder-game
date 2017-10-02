@@ -1,0 +1,15 @@
+{
+  "title": "Gem Market",
+  "code": "T17",
+  "theme": {
+    "type": "market"
+  },
+  "description": "If the tile has two gold on it, return the gold to the bank and replace with a gem token",
+  "function": {
+    "convert": ["gold", "gold"],
+    "into": "gem"
+  },
+  "layers": [],
+  "symbols": ["gold-block", "gold-block", "convert-to", "gem-block"],
+  "symbolLayout": "transform-two"
+}

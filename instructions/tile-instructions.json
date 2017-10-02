@@ -318,5 +318,25 @@
     "data": {
       "$ref": "/data/tiles/16-gem-mine.json"
     }
+  },
+  {
+    "asset": "17-gem-market.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/17-gem-market.json"
+    }
+  },
+  {
+    "asset": "17-gem-market.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/17-gem-market.json"
+    }
   }
 ]
