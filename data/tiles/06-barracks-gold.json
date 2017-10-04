@@ -4,7 +4,7 @@
   "theme": {
     "type": "castle"
   },
-  "description": "If the tile has a worker, an iron token, and a gold token, then return all three to the bank and replace with a knight",
+  "description": "A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gold token for a knight from the bank if available.",
   "function": {
     "convert": ["worker", "iron", "gold"],
     "into": "knight"

@@ -4,7 +4,7 @@
   "theme": {
     "type": "industry"
   },
-  "description": "If the blacksmith has any iron blocks on it, convert each iron block to 2 gold in your bank",
+  "description": "A player can claim this tile with a worker, and then may exchange an iron token for two gold from the bank if available.",
   "function": {
     "convert": ["iron"],
     "into": ["gold", 2]

@@ -4,7 +4,7 @@
   "theme": {
     "type": "industry"
   },
-  "description": "If the lumber mill has any wood blocks on it, convert each wood block to 2 gold in your bank",
+  "description": "A player can claim this tile with a worker, and then may exchange a wood token for two gold from the bank if available.",
   "function": {
     "convert": ["wood"],
     "into": ["gold", 2]

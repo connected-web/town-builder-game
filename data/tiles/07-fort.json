@@ -4,7 +4,7 @@
   "theme": {
     "type": "castle"
   },
-  "description": "If this tile has a knight, and there is a player with less total knights than you, then steal any two resources from that player, and return this knight to the bank",
+  "description": "A player can only claim this tile with a knight, if they have one. If there is a player with less knights then you, then you may steal one resource from that player. You may only steal from one player.",
   "function": {
     "convert": ["knight"],
     "into": [],

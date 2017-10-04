@@ -23,7 +23,7 @@
     "theme": {
       "type": "industry"
     },
-    "description": "If the tile has a worker on it, return the worker to the bank and replace with a wood token",
+    "description": "A player can claim this tile with a worker, and then may claim a wood token from the bank if available.",
     "function": {
       "convert": [
         "worker"
@@ -46,7 +46,7 @@
     "theme": {
       "type": "industry"
     },
-    "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+    "description": "A player can claim this tile with a worker, and then may claim an iron token from the bank if available.",
     "function": {
       "convert": [
         "worker"
@@ -69,7 +69,7 @@
     "theme": {
       "type": "industry"
     },
-    "description": "If the tile has a worker on it, return the worker to the bank and replace with a food token",
+    "description": "A player can claim this tile with a worker, and then may claim a food token from the bank if available.",
     "function": {
       "convert": [
         "worker"
@@ -92,10 +92,10 @@
     "theme": {
       "type": "castle"
     },
-    "description": "If the tile has a worker, an iron token, and a gem token, then return all three to the bank and replace with a knight",
+    "description": "A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gem token for a knight from the bank if available.",
     "function": {
       "convert": [
-        "worker",
+        "food",
         "iron",
         "gem"
       ],
@@ -119,7 +119,7 @@
     "theme": {
       "type": "castle"
     },
-    "description": "If the tile has a worker, an iron token, and a gold token, then return all three to the bank and replace with a knight",
+    "description": "A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gold token for a knight from the bank if available.",
     "function": {
       "convert": [
         "worker",
@@ -146,7 +146,7 @@
     "theme": {
       "type": "castle"
     },
-    "description": "If this tile has a knight, and there is a player with less total knights than you, then steal any two resources from that player, and return this knight to the bank",
+    "description": "A player can only claim this tile with a knight, if they have one. If there is a player with less knights then you, then you may steal one resource from that player. You may only steal from one player.",
     "function": {
       "convert": [
         "knight"
@@ -170,7 +170,7 @@
     "theme": {
       "type": "industry"
     },
-    "description": "If the bakery has any food blocks on it, convert each food block to 2 gold in your bank",
+    "description": "A player can claim this tile with a worker, and then may exchange a food token for two gold from the bank if available.",
     "function": {
       "convert": [
         "food"
@@ -197,7 +197,7 @@
     "theme": {
       "type": "industry"
     },
-    "description": "If the lumber mill has any wood blocks on it, convert each wood block to 2 gold in your bank",
+    "description": "A player can claim this tile with a worker, and then may exchange a wood token for two gold from the bank if available.",
     "function": {
       "convert": [
         "wood"
@@ -224,7 +224,7 @@
     "theme": {
       "type": "industry"
     },
-    "description": "If the blacksmith has any iron blocks on it, convert each iron block to 2 gold in your bank",
+    "description": "A player can claim this tile with a worker, and then may exchange an iron token for two gold from the bank if available.",
     "function": {
       "convert": [
         "iron"
@@ -251,7 +251,7 @@
     "theme": {
       "type": "market"
     },
-    "description": "If the market has any wood, iron, or food blocks on it, convert each block to 1 gold in your bank",
+    "description": "A player can claim this tile with a worker, and then may exchange either an iron token, a wood token, or a food token, for one gold from the bank if available.",
     "functions": [
       {
         "convert": "iron",
@@ -286,7 +286,7 @@
     "theme": {
       "type": "market"
     },
-    "description": "If the market has any wood, gold, or iron blocks on it, convert each block to a food block in your bank",
+    "description": "A player can claim this tile with a worker, and then may exchange either a gold token, an iron token, or a wood token, for one food from the bank if available.",
     "functions": [
       {
         "convert": "gold",
@@ -321,7 +321,7 @@
     "theme": {
       "type": "market"
     },
-    "description": "If the market has any iron, gold, or food blocks on it, convert each block to 1 wood in your bank",
+    "description": "A player can claim this tile with a worker, and then may exchange either an food token, a gold token, or an iron token, for one wood from the bank if available.",
     "functions": [
       {
         "convert": "food",
@@ -356,7 +356,7 @@
     "theme": {
       "type": "market"
     },
-    "description": "If the market has any wood, gold, or food blocks on it, convert each block to an iron block in your bank",
+    "description": "A player can claim this tile with a worker, and then may exchange either an wood token, a food token, or a gold token, for one iron from the bank if available.",
     "functions": [
       {
         "convert": "wood",
@@ -391,7 +391,7 @@
     "theme": {
       "type": "industry"
     },
-    "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+    "description": "A player can claim this tile with a worker, and then may exchange two iron tokens, for one gem token from the bank if available.",
     "function": {
       "convert": [
         "iron",
@@ -416,7 +416,7 @@
     "theme": {
       "type": "industry"
     },
-    "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+    "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim one gem token from bank if available.",
     "function": {
       "convert": [
         "worker",
@@ -441,7 +441,7 @@
     "theme": {
       "type": "market"
     },
-    "description": "If the tile has two gold on it, return the gold to the bank and replace with a gem token",
+    "description": "A player may claim this tile with a worker, and then may exchange two gold tokens, for one gem token with the bank if available.",
     "function": {
       "convert": [
         "gold",

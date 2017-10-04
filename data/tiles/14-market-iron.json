@@ -4,7 +4,7 @@
   "theme": {
     "type": "market"
   },
-  "description": "If the market has any wood, gold, or food blocks on it, convert each block to an iron block in your bank",
+  "description": "A player can claim this tile with a worker, and then may exchange either an wood token, a food token, or a gold token, for one iron from the bank if available.",
   "functions": [{
       "convert": "wood",
       "into": "iron"

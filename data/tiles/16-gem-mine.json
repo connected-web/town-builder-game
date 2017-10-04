@@ -4,7 +4,7 @@
   "theme": {
     "type": "industry"
   },
-  "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+  "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim one gem token from bank if available.",
   "function": {
     "convert": ["worker", "worker"],
     "into": "gem"

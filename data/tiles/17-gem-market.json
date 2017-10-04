@@ -4,7 +4,7 @@
   "theme": {
     "type": "market"
   },
-  "description": "If the tile has two gold on it, return the gold to the bank and replace with a gem token",
+  "description": "A player may claim this tile with a worker, and then may exchange two gold tokens, for one gem token with the bank if available.",
   "function": {
     "convert": ["gold", "gold"],
     "into": "gem"
