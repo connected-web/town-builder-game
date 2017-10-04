@@ -15,6 +15,7 @@
         "1st-player"
       ],
       "symbolLayout": "town-hall",
+      "quantity": 1,
       "assetId": "01-town-hall"
     },
     {
@@ -37,6 +38,7 @@
         "wood-block"
       ],
       "symbolLayout": "transform-one",
+      "quantity": 2,
       "assetId": "02-wood-cutter"
     },
     {
@@ -59,6 +61,7 @@
         "iron-block"
       ],
       "symbolLayout": "transform-one",
+      "quantity": 2,
       "assetId": "03-mine"
     },
     {
@@ -81,6 +84,7 @@
         "food-block"
       ],
       "symbolLayout": "transform-one",
+      "quantity": 2,
       "assetId": "04-farm"
     },
     {
@@ -107,6 +111,7 @@
         "knight-meeple"
       ],
       "symbolLayout": "transform-three",
+      "quantity": 2,
       "assetId": "05-barracks-gem"
     },
     {
@@ -133,6 +138,7 @@
         "knight-meeple"
       ],
       "symbolLayout": "transform-three",
+      "quantity": 2,
       "assetId": "06-barracks-gold"
     },
     {
@@ -156,6 +162,7 @@
         "steal-action"
       ],
       "symbolLayout": "activate-one",
+      "quantity": 2,
       "assetId": "07-fort"
     },
     {
@@ -182,6 +189,7 @@
         "x2"
       ],
       "symbolLayout": "transform-one-for-two",
+      "quantity": 2,
       "assetId": "08-bakery"
     },
     {
@@ -208,6 +216,7 @@
         "x2"
       ],
       "symbolLayout": "transform-one-for-two",
+      "quantity": 2,
       "assetId": "09-lumber-mill"
     },
     {
@@ -234,6 +243,7 @@
         "x2"
       ],
       "symbolLayout": "transform-one-for-two",
+      "quantity": 2,
       "assetId": "10-blacksmith"
     },
     {
@@ -268,6 +278,7 @@
         "gold-block"
       ],
       "symbolLayout": "market-sell-three",
+      "quantity": 2,
       "assetId": "11-market-gold"
     },
     {
@@ -302,6 +313,7 @@
         "food-block"
       ],
       "symbolLayout": "market-sell-three",
+      "quantity": 2,
       "assetId": "12-market-food"
     },
     {
@@ -336,6 +348,7 @@
         "wood-block"
       ],
       "symbolLayout": "market-sell-three",
+      "quantity": 2,
       "assetId": "13-market-wood"
     },
     {
@@ -370,6 +383,7 @@
         "iron-block"
       ],
       "symbolLayout": "market-sell-three",
+      "quantity": 2,
       "assetId": "14-market-iron"
     },
     {
@@ -394,6 +408,7 @@
         "gem-block"
       ],
       "symbolLayout": "transform-two",
+      "quantity": 2,
       "assetId": "15-gem-mine-iron"
     },
     {
@@ -418,6 +433,7 @@
         "gem-block"
       ],
       "symbolLayout": "transform-two",
+      "quantity": 2,
       "assetId": "16-gem-mine"
     },
     {
@@ -442,6 +458,7 @@
         "gem-block"
       ],
       "symbolLayout": "transform-two",
+      "quantity": 2,
       "assetId": "17-gem-market"
     }
   ]

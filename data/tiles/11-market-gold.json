@@ -20,5 +20,6 @@
   ],
   "layers": [],
   "symbols": ["iron-block", "convert-to", "wood-block", "convert-to", "food-block", "convert-to", "gold-block"],
-  "symbolLayout": "market-sell-three"
+  "symbolLayout": "market-sell-three",
+  "quantity": 2
 }

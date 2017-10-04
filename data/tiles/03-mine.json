@@ -11,5 +11,6 @@
   },
   "layers": [],
   "symbols": ["worker-meeple", "convert-to", "iron-block"],
-  "symbolLayout": "transform-one"
+  "symbolLayout": "transform-one",
+  "quantity": 2
 }

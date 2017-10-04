@@ -11,5 +11,6 @@
   },
   "layers": [],
   "symbols": ["food-block", "iron-block", "gem-block", "convert-to", "knight-meeple"],
-  "symbolLayout": "transform-three"
+  "symbolLayout": "transform-three",
+  "quantity": 2
 }

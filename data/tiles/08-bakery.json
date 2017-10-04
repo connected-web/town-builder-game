@@ -11,5 +11,6 @@
   },
   "layers": [],
   "symbols": ["food-block", "convert-to", "gold-block", "x2"],
-  "symbolLayout": "transform-one-for-two"
+  "symbolLayout": "transform-one-for-two",
+  "quantity": 2
 }

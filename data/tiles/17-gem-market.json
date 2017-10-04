@@ -11,5 +11,6 @@
   },
   "layers": [],
   "symbols": ["gold-block", "gold-block", "convert-to", "gem-block"],
-  "symbolLayout": "transform-two"
+  "symbolLayout": "transform-two",
+  "quantity": 2
 }

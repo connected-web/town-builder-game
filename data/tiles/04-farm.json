@@ -11,5 +11,6 @@
   },
   "layers": [],
   "symbols": ["worker-meeple", "convert-to", "food-block"],
-  "symbolLayout": "transform-one"
+  "symbolLayout": "transform-one",
+  "quantity": 2
 }

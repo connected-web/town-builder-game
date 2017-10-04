@@ -11,5 +11,6 @@
   },
   "layers": [],
   "symbols": ["worker-meeple", "worker-meeple", "convert-to", "gem-block"],
-  "symbolLayout": "transform-two"
+  "symbolLayout": "transform-two",
+  "quantity": 2
 }

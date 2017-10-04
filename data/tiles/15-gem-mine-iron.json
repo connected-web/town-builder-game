@@ -11,5 +11,6 @@
   },
   "layers": [],
   "symbols": ["iron-block", "iron-block", "convert-to", "gem-block"],
-  "symbolLayout": "transform-two"
+  "symbolLayout": "transform-two",
+  "quantity": 2
 }

@@ -10,5 +10,6 @@
   },
   "layers": [],
   "symbols": ["1st-player"],
-  "symbolLayout": "town-hall"
+  "symbolLayout": "town-hall",
+  "quantity": 1
 }

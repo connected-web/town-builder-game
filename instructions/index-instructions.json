@@ -14,8 +14,8 @@
     }
   },
   {
-      "asset": "tiles.md",
-      "template": "/tiles-template.md",
+      "asset": "rulebook.md",
+      "template": "/rulebook-template.md",
       "renderer": {
         "$ref": "/data/renderer/text-renderer.json"
       },

@@ -12,5 +12,6 @@
   },
   "layers": [],
   "symbols": ["knight-meeple", "convert-to", "steal-action"],
-  "symbolLayout": "activate-one"
+  "symbolLayout": "activate-one",
+  "quantity": 2
 }
