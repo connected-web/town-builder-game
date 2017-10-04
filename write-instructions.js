@@ -1,4 +1,4 @@
-let { find, write } = require('promise-path')
+let { find, read, write } = require('promise-path')
 let path = require('path')
 
 var outputFile = './instructions/tile-instructions.json'
@@ -25,6 +25,24 @@ var htmlTemplate = `{
 
 const pp = (data) => JSON.stringify(data, null, 2)
 
+function readAssets(files) {
+  return files.map(readAsset)
+}
+
+function readAsset(filepath) {
+  const assetId = path.basename(filepath).slice(0, -5)
+  return read(filepath, 'utf8')
+    .then(JSON.parse)
+    .then((data) => {
+      data.assetId = assetId
+      return data
+    })
+}
+
+function displayError(ex) {
+  console.error('Error:', ex, ex.stack)
+}
+
 var instructions = []
 find('./data/tiles/*.json')
   .then(files => files.map(filepath => path.basename(filepath)))
@@ -37,6 +55,13 @@ find('./data/tiles/*.json')
   .then(files => write('./data/tile-assets.json', pp(files), 'utf8'))
   .then(() => write(outputFile, pp(instructions), 'utf8'))
   .then(result => console.log(`Created ${outputFile}`))
+  .catch(displayError)
+
+find('./data/tiles/*.json')
+  .then(files => Promise.all(readAssets(files)))
+  .then(files => write('./data/tile-data.json', pp(files), 'utf8'))
+  .then(result => console.log(`Created ./data/tile-data.json`))
+  .catch(displayError)
 
 function createInstruction(name, template) {
   let instruction = JSON.parse(template.replace(/{name}/g, name))

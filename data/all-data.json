@@ -1,0 +1,5 @@
+{
+  "tiles": {
+    "$ref": "/data/tile-data.json"
+  }
+}

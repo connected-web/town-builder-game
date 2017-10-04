@@ -22,7 +22,8 @@
         "templates/css"
       ],
       "ignore": [
-        "data/tile-assets.json"
+        "data/tile-assets.json",
+        "data/tile-data.json"
       ],
       "extensions": "json,html,css",
       "quiet": false
