@@ -9,8 +9,21 @@
       "title": "Town Builder Tiles",
       "type": "tiles",
       "assets": {
-        "$ref": "/data/tile-assets.json"
+        "$ref": "/data/tile-data.json"
       }
     }
-  }
+  },
+  {
+      "asset": "tiles.md",
+      "template": "/tiles-template.md",
+      "renderer": {
+        "$ref": "/data/renderer/text-renderer.json"
+      },
+      "data": {
+        "projectName": "Town Builder",
+        "model": {
+          "$ref": "/data/all-data.json"
+        }
+      }
+    }
 ]

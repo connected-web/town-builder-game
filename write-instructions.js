@@ -63,6 +63,15 @@ find('./data/tiles/*.json')
   .then(result => console.log(`Created ./data/tile-data.json`))
   .catch(displayError)
 
+Promise.all([
+  readAsset('./data/tile-data.json')
+])
+.then((assets) => {
+  return write('./data/all-data.json', pp({
+    tiles: assets[0]
+  }), 'utf8')
+})
+
 function createInstruction(name, template) {
   let instruction = JSON.parse(template.replace(/{name}/g, name))
   instructions.push(instruction)

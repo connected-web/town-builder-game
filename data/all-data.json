@@ -1,5 +1,448 @@
 {
-  "tiles": {
-    "$ref": "/data/tile-data.json"
-  }
+  "tiles": [
+    {
+      "title": "Town Hall",
+      "code": "T01",
+      "theme": {
+        "type": "town"
+      },
+      "description": "If a player has claimed this tile at the end of a round, pass the player one token to this player; that player goes first on the next round",
+      "function": {
+        "spawn": "worker"
+      },
+      "layers": [],
+      "symbols": [
+        "1st-player"
+      ],
+      "symbolLayout": "town-hall",
+      "assetId": "01-town-hall"
+    },
+    {
+      "title": "Wood Cutter",
+      "code": "T02",
+      "theme": {
+        "type": "industry"
+      },
+      "description": "If the tile has a worker on it, return the worker to the bank and replace with a wood token",
+      "function": {
+        "convert": [
+          "worker"
+        ],
+        "into": "wood"
+      },
+      "layers": [],
+      "symbols": [
+        "worker-meeple",
+        "convert-to",
+        "wood-block"
+      ],
+      "symbolLayout": "transform-one",
+      "assetId": "02-wood-cutter"
+    },
+    {
+      "title": "Mine",
+      "code": "T03",
+      "theme": {
+        "type": "industry"
+      },
+      "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+      "function": {
+        "convert": [
+          "worker"
+        ],
+        "into": "iron"
+      },
+      "layers": [],
+      "symbols": [
+        "worker-meeple",
+        "convert-to",
+        "iron-block"
+      ],
+      "symbolLayout": "transform-one",
+      "assetId": "03-mine"
+    },
+    {
+      "title": "Farm",
+      "code": "T04",
+      "theme": {
+        "type": "industry"
+      },
+      "description": "If the tile has a worker on it, return the worker to the bank and replace with a food token",
+      "function": {
+        "convert": [
+          "worker"
+        ],
+        "into": "food"
+      },
+      "layers": [],
+      "symbols": [
+        "worker-meeple",
+        "convert-to",
+        "food-block"
+      ],
+      "symbolLayout": "transform-one",
+      "assetId": "04-farm"
+    },
+    {
+      "title": "Barracks",
+      "code": "T05",
+      "theme": {
+        "type": "castle"
+      },
+      "description": "If the tile has a worker, an iron token, and a gem token, then return all three to the bank and replace with a knight",
+      "function": {
+        "convert": [
+          "worker",
+          "iron",
+          "gem"
+        ],
+        "into": "knight"
+      },
+      "layers": [],
+      "symbols": [
+        "food-block",
+        "iron-block",
+        "gem-block",
+        "convert-to",
+        "knight-meeple"
+      ],
+      "symbolLayout": "transform-three",
+      "assetId": "05-barracks-gem"
+    },
+    {
+      "title": "Barracks",
+      "code": "T06",
+      "theme": {
+        "type": "castle"
+      },
+      "description": "If the tile has a worker, an iron token, and a gold token, then return all three to the bank and replace with a knight",
+      "function": {
+        "convert": [
+          "worker",
+          "iron",
+          "gold"
+        ],
+        "into": "knight"
+      },
+      "layers": [],
+      "symbols": [
+        "food-block",
+        "iron-block",
+        "gold-block",
+        "convert-to",
+        "knight-meeple"
+      ],
+      "symbolLayout": "transform-three",
+      "assetId": "06-barracks-gold"
+    },
+    {
+      "title": "Fort",
+      "code": "T07",
+      "theme": {
+        "type": "castle"
+      },
+      "description": "If this tile has a knight, and there is a player with less total knights than you, then steal any two resources from that player, and return this knight to the bank",
+      "function": {
+        "convert": [
+          "knight"
+        ],
+        "into": [],
+        "steal": true
+      },
+      "layers": [],
+      "symbols": [
+        "knight-meeple",
+        "convert-to",
+        "steal-action"
+      ],
+      "symbolLayout": "activate-one",
+      "assetId": "07-fort"
+    },
+    {
+      "title": "Bakery",
+      "code": "T08",
+      "theme": {
+        "type": "industry"
+      },
+      "description": "If the bakery has any food blocks on it, convert each food block to 2 gold in your bank",
+      "function": {
+        "convert": [
+          "food"
+        ],
+        "into": [
+          "gold",
+          2
+        ]
+      },
+      "layers": [],
+      "symbols": [
+        "food-block",
+        "convert-to",
+        "gold-block",
+        "x2"
+      ],
+      "symbolLayout": "transform-one-for-two",
+      "assetId": "08-bakery"
+    },
+    {
+      "title": "Lumber Mill",
+      "code": "T09",
+      "theme": {
+        "type": "industry"
+      },
+      "description": "If the lumber mill has any wood blocks on it, convert each wood block to 2 gold in your bank",
+      "function": {
+        "convert": [
+          "wood"
+        ],
+        "into": [
+          "gold",
+          2
+        ]
+      },
+      "layers": [],
+      "symbols": [
+        "wood-block",
+        "convert-to",
+        "gold-block",
+        "x2"
+      ],
+      "symbolLayout": "transform-one-for-two",
+      "assetId": "09-lumber-mill"
+    },
+    {
+      "title": "Blacksmith",
+      "code": "T10",
+      "theme": {
+        "type": "industry"
+      },
+      "description": "If the blacksmith has any iron blocks on it, convert each iron block to 2 gold in your bank",
+      "function": {
+        "convert": [
+          "iron"
+        ],
+        "into": [
+          "gold",
+          2
+        ]
+      },
+      "layers": [],
+      "symbols": [
+        "iron-block",
+        "convert-to",
+        "gold-block",
+        "x2"
+      ],
+      "symbolLayout": "transform-one-for-two",
+      "assetId": "10-blacksmith"
+    },
+    {
+      "title": "Market",
+      "code": "T11",
+      "theme": {
+        "type": "market"
+      },
+      "description": "If the market has any wood, iron, or food blocks on it, convert each block to 1 gold in your bank",
+      "functions": [
+        {
+          "convert": "iron",
+          "into": "gold"
+        },
+        {
+          "convert": "wood",
+          "into": "gold"
+        },
+        {
+          "convert": "food",
+          "into": "gold"
+        }
+      ],
+      "layers": [],
+      "symbols": [
+        "iron-block",
+        "convert-to",
+        "wood-block",
+        "convert-to",
+        "food-block",
+        "convert-to",
+        "gold-block"
+      ],
+      "symbolLayout": "market-sell-three",
+      "assetId": "11-market-gold"
+    },
+    {
+      "title": "Food Market",
+      "code": "T12",
+      "theme": {
+        "type": "market"
+      },
+      "description": "If the market has any wood, gold, or iron blocks on it, convert each block to a food block in your bank",
+      "functions": [
+        {
+          "convert": "gold",
+          "into": "food"
+        },
+        {
+          "convert": "iron",
+          "into": "food"
+        },
+        {
+          "convert": "wood",
+          "into": "food"
+        }
+      ],
+      "layers": [],
+      "symbols": [
+        "gold-block",
+        "convert-to",
+        "iron-block",
+        "convert-to",
+        "wood-block",
+        "convert-to",
+        "food-block"
+      ],
+      "symbolLayout": "market-sell-three",
+      "assetId": "12-market-food"
+    },
+    {
+      "title": "Wood Market",
+      "code": "T13",
+      "theme": {
+        "type": "market"
+      },
+      "description": "If the market has any iron, gold, or food blocks on it, convert each block to 1 wood in your bank",
+      "functions": [
+        {
+          "convert": "food",
+          "into": "wood"
+        },
+        {
+          "convert": "gold",
+          "into": "wood"
+        },
+        {
+          "convert": "iron",
+          "into": "wood"
+        }
+      ],
+      "layers": [],
+      "symbols": [
+        "food-block",
+        "convert-to",
+        "gold-block",
+        "convert-to",
+        "iron-block",
+        "convert-to",
+        "wood-block"
+      ],
+      "symbolLayout": "market-sell-three",
+      "assetId": "13-market-wood"
+    },
+    {
+      "title": "Iron Market",
+      "code": "T14",
+      "theme": {
+        "type": "market"
+      },
+      "description": "If the market has any wood, gold, or food blocks on it, convert each block to an iron block in your bank",
+      "functions": [
+        {
+          "convert": "wood",
+          "into": "iron"
+        },
+        {
+          "convert": "food",
+          "into": "iron"
+        },
+        {
+          "convert": "gold",
+          "into": "iron"
+        }
+      ],
+      "layers": [],
+      "symbols": [
+        "wood-block",
+        "convert-to",
+        "food-block",
+        "convert-to",
+        "gold-block",
+        "convert-to",
+        "iron-block"
+      ],
+      "symbolLayout": "market-sell-three",
+      "assetId": "14-market-iron"
+    },
+    {
+      "title": "Gem Mine",
+      "code": "T15",
+      "theme": {
+        "type": "industry"
+      },
+      "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+      "function": {
+        "convert": [
+          "iron",
+          "iron"
+        ],
+        "into": "gem"
+      },
+      "layers": [],
+      "symbols": [
+        "iron-block",
+        "iron-block",
+        "convert-to",
+        "gem-block"
+      ],
+      "symbolLayout": "transform-two",
+      "assetId": "15-gem-mine-iron"
+    },
+    {
+      "title": "Gem Mine",
+      "code": "T16",
+      "theme": {
+        "type": "industry"
+      },
+      "description": "If the tile has a worker on it, return the worker to the bank and replace with an ore token",
+      "function": {
+        "convert": [
+          "worker",
+          "worker"
+        ],
+        "into": "gem"
+      },
+      "layers": [],
+      "symbols": [
+        "worker-meeple",
+        "worker-meeple",
+        "convert-to",
+        "gem-block"
+      ],
+      "symbolLayout": "transform-two",
+      "assetId": "16-gem-mine"
+    },
+    {
+      "title": "Gem Market",
+      "code": "T17",
+      "theme": {
+        "type": "market"
+      },
+      "description": "If the tile has two gold on it, return the gold to the bank and replace with a gem token",
+      "function": {
+        "convert": [
+          "gold",
+          "gold"
+        ],
+        "into": "gem"
+      },
+      "layers": [],
+      "symbols": [
+        "gold-block",
+        "gold-block",
+        "convert-to",
+        "gem-block"
+      ],
+      "symbolLayout": "transform-two",
+      "assetId": "17-gem-market"
+    }
+  ]
 }
