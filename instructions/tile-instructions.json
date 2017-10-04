@@ -1,6 +1,6 @@
 [
   {
-    "asset": "01-town-hall.png",
+    "asset": "images/tiles/01-town-hall.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -10,7 +10,7 @@
     }
   },
   {
-    "asset": "01-town-hall.html",
+    "asset": "debug/tiles/01-town-hall.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -20,7 +20,7 @@
     }
   },
   {
-    "asset": "02-wood-cutter.png",
+    "asset": "images/tiles/02-wood-cutter.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -30,7 +30,7 @@
     }
   },
   {
-    "asset": "02-wood-cutter.html",
+    "asset": "debug/tiles/02-wood-cutter.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -40,7 +40,7 @@
     }
   },
   {
-    "asset": "03-mine.png",
+    "asset": "images/tiles/03-mine.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -50,7 +50,7 @@
     }
   },
   {
-    "asset": "03-mine.html",
+    "asset": "debug/tiles/03-mine.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -60,7 +60,7 @@
     }
   },
   {
-    "asset": "04-farm.png",
+    "asset": "images/tiles/04-farm.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -70,7 +70,7 @@
     }
   },
   {
-    "asset": "04-farm.html",
+    "asset": "debug/tiles/04-farm.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -80,7 +80,7 @@
     }
   },
   {
-    "asset": "05-barracks-gem.png",
+    "asset": "images/tiles/05-barracks-gem.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -90,7 +90,7 @@
     }
   },
   {
-    "asset": "05-barracks-gem.html",
+    "asset": "debug/tiles/05-barracks-gem.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -100,7 +100,7 @@
     }
   },
   {
-    "asset": "06-barracks-gold.png",
+    "asset": "images/tiles/06-barracks-gold.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -110,7 +110,7 @@
     }
   },
   {
-    "asset": "06-barracks-gold.html",
+    "asset": "debug/tiles/06-barracks-gold.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -120,7 +120,7 @@
     }
   },
   {
-    "asset": "07-fort.png",
+    "asset": "images/tiles/07-fort.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -130,7 +130,7 @@
     }
   },
   {
-    "asset": "07-fort.html",
+    "asset": "debug/tiles/07-fort.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -140,7 +140,7 @@
     }
   },
   {
-    "asset": "08-bakery.png",
+    "asset": "images/tiles/08-bakery.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -150,7 +150,7 @@
     }
   },
   {
-    "asset": "08-bakery.html",
+    "asset": "debug/tiles/08-bakery.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -160,7 +160,7 @@
     }
   },
   {
-    "asset": "09-lumber-mill.png",
+    "asset": "images/tiles/09-lumber-mill.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -170,7 +170,7 @@
     }
   },
   {
-    "asset": "09-lumber-mill.html",
+    "asset": "debug/tiles/09-lumber-mill.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -180,7 +180,7 @@
     }
   },
   {
-    "asset": "10-blacksmith.png",
+    "asset": "images/tiles/10-blacksmith.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -190,7 +190,7 @@
     }
   },
   {
-    "asset": "10-blacksmith.html",
+    "asset": "debug/tiles/10-blacksmith.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -200,7 +200,7 @@
     }
   },
   {
-    "asset": "11-market-gold.png",
+    "asset": "images/tiles/11-market-gold.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -210,7 +210,7 @@
     }
   },
   {
-    "asset": "11-market-gold.html",
+    "asset": "debug/tiles/11-market-gold.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -220,7 +220,7 @@
     }
   },
   {
-    "asset": "12-market-food.png",
+    "asset": "images/tiles/12-market-food.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -230,7 +230,7 @@
     }
   },
   {
-    "asset": "12-market-food.html",
+    "asset": "debug/tiles/12-market-food.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -240,7 +240,7 @@
     }
   },
   {
-    "asset": "13-market-wood.png",
+    "asset": "images/tiles/13-market-wood.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -250,7 +250,7 @@
     }
   },
   {
-    "asset": "13-market-wood.html",
+    "asset": "debug/tiles/13-market-wood.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -260,7 +260,7 @@
     }
   },
   {
-    "asset": "14-market-iron.png",
+    "asset": "images/tiles/14-market-iron.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -270,7 +270,7 @@
     }
   },
   {
-    "asset": "14-market-iron.html",
+    "asset": "debug/tiles/14-market-iron.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -280,7 +280,7 @@
     }
   },
   {
-    "asset": "15-gem-mine-iron.png",
+    "asset": "images/tiles/15-gem-mine-iron.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -290,7 +290,7 @@
     }
   },
   {
-    "asset": "15-gem-mine-iron.html",
+    "asset": "debug/tiles/15-gem-mine-iron.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -300,7 +300,7 @@
     }
   },
   {
-    "asset": "16-gem-mine.png",
+    "asset": "images/tiles/16-gem-mine.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -310,7 +310,7 @@
     }
   },
   {
-    "asset": "16-gem-mine.html",
+    "asset": "debug/tiles/16-gem-mine.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
@@ -320,7 +320,7 @@
     }
   },
   {
-    "asset": "17-gem-market.png",
+    "asset": "images/tiles/17-gem-market.png",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/tile-renderer.json"
@@ -330,7 +330,7 @@
     }
   },
   {
-    "asset": "17-gem-market.html",
+    "asset": "debug/tiles/17-gem-market.html",
     "template": "/tile-renderer.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"

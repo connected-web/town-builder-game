@@ -4,7 +4,7 @@
 {{#each model.tiles}}
 ### {{this.code}} : {{this.title}} - Quantity: {{this.quantity}}
 
-![{{this.title}}]({{this.assetId}}.png)
+![{{this.title}}](./images/tiles/{{this.assetId}}.png)
 
 {{this.description}}
 {{/each}}

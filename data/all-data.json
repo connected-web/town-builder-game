@@ -6,7 +6,7 @@
       "theme": {
         "type": "town"
       },
-      "description": "If a player has claimed this tile at the end of a round, pass the player one token to this player; that player goes first on the next round",
+      "description": "When a player has claimed this tile, immediately pass the first player token to this player; that player goes first on the next round.",
       "function": {
         "spawn": "worker"
       },
