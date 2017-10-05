@@ -1,35 +1,39 @@
 .layout.transform-one-for-two .symbol.s0 {
   display: block;
   position: absolute;
-  top: 25%;
-  left: 50%;
+  top: 29%;
+  left: 29%;
 }
+
 .layout.transform-one-for-two .symbol.s1.convert-to {
   display: block;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   left: 50%;
-  top: 48%;
-  background-color: transparent;
+  top: 50%;
 }
+
 .layout.transform-one-for-two .symbol.s2 {
   display: block;
   position: absolute;
-  left: 50%;
-  top: 75%;
+  top: 56%;
+  left: 76%;
 }
 .layout.transform-one-for-two .symbol.s2.base {
+  display: block;
+  position: absolute;
+  top: 66%;
+  left: 66%;
   margin-left: -190px;
   width: 380px;
-}
-.layout.transform-one-for-two .symbol.s2.icon {
-  left: 37%;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .layout.transform-one-for-two .symbol.s3 {
   display: block;
   position: absolute;
-  left: 63%;
-  top: 75%;
+  top: 76%;
+  left: 56%;
 }
 .layout.transform-one-for-two .symbol.s3.base {
   display: none;
