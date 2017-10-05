@@ -159,6 +159,21 @@ A player may claim this tile with one or two workers; if they claimed the tile w
 <img src="./images/tiles/17-gem-market.png" alt="Gem Market" width="250" />
 
 A player may claim this tile with a worker, and then may exchange two gold tokens, for one gem token with the bank if available. 
+### T18 : Foresters Guild - Quantity: 1
+
+<img src="./images/tiles/18-foresters-guild.png" alt="Foresters Guild" width="250" />
+
+A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two wood tokens from bank if available. 
+### T19 : Miners Union - Quantity: 1
+
+<img src="./images/tiles/19-miners-union.png" alt="Miners Union" width="250" />
+
+A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two iron tokens from bank if available. 
+### T20 : Communal Farm - Quantity: 1
+
+<img src="./images/tiles/20-communal-farm.png" alt="Communal Farm" width="250" />
+
+A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two food tokens from bank if available. 
 
 ## Glossary
 
