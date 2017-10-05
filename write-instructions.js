@@ -4,7 +4,7 @@ let path = require('path')
 var outputFile = './instructions/tile-instructions.json'
 var tileTemplate = `{
   "asset": "images/tiles/{name}.png",
-  "template": "/tile-renderer.html",
+  "template": "/tile-template.html",
   "renderer": {
     "$ref": "/data/renderer/tile-renderer.json"
   },
@@ -14,7 +14,7 @@ var tileTemplate = `{
 }`
 var htmlTemplate = `{
   "asset": "debug/tiles/{name}.html",
-  "template": "/tile-renderer.html",
+  "template": "/tile-template.html",
   "renderer": {
     "$ref": "/data/renderer/html-renderer.json"
   },

@@ -1,7 +1,7 @@
 [
   {
     "asset": "tile-index.html",
-    "template": "/index-renderer.html",
+    "template": "/index-template.html",
     "renderer": {
       "$ref": "/data/renderer/html-renderer.json"
     },
