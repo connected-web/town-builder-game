@@ -77,7 +77,7 @@ If there is a shortage of a certain type of resource, try trading goods at a mar
 
 ### {{this.code}} : {{this.title}} - Quantity: {{this.quantity}}
 
-![{{this.title}}](./images/tiles/{{this.assetId}}.png)
+<img src="./images/tiles/{{this.assetId}}.png" alt="{{this.title}}" style="width: 250px;"/>
 
 {{this.description}} {{/each}}
 
