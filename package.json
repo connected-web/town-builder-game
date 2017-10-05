@@ -35,7 +35,8 @@
     "write-instructions": "node write-instructions.js",
     "build": "npm run write-instructions && node node_modules/node-hag/bin/hag generate",
     "watch": "npm-watch",
-    "package-files": "npm run build && mkdir -p release && cp -r ./build/images ./release/ && cp ./build/*.md ./release/"
+    "package-files": "npm run build && mkdir -p release && cp -r ./build/images ./release/ && cp ./build/*.md ./release/",
+    "publish": "npm run package-files && git add . && git commit -m \"Publishing files\" && git push"
   },
   "repository": {
     "type": "git",
