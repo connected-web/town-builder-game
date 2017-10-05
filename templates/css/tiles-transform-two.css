@@ -4,6 +4,10 @@
   top: 44%;
   left: 24%;
 }
+.layout.transform-two .symbol.s0.base.border {
+  margin-left: -200px;
+  width: 400px;
+}
 .layout.transform-two .symbol.s0.base {
   display: block;
   position: absolute;

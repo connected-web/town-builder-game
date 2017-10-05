@@ -41,8 +41,16 @@ html, body {
 .symbol {
   display: inline-block;
 }
+.symbol.base.border {
+  background: rgba(255, 255, 255, 0.7);
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  margin-left: -110px;
+  margin-top: -110px;
+}
 .symbol.base {
-  background: #b3a77d;
+  background: #DDD;
   width: 200px;
   height: 200px;
   border-radius: 100px;
@@ -105,9 +113,15 @@ html, body {
   display: none;
 }
 
+.symbol.convert-to.base.border {
+  display: none;
+  background: none;
+}
+
 .layer {
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   width: 100%;
   height: 100%;

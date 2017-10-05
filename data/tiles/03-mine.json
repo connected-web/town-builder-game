@@ -9,7 +9,7 @@
     "convert": ["worker"],
     "into": "iron"
   },
-  "layers": [],
+  "layers": ["/data/assets/backgrounds/mine.png"],
   "symbols": ["worker-meeple", "convert-to", "iron-block"],
   "symbolLayout": "transform-one",
   "quantity": 2

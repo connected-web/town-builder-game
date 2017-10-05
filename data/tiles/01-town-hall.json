@@ -8,7 +8,7 @@
   "function": {
     "spawn": "worker"
   },
-  "layers": [],
+  "layers": ["/data/assets/backgrounds/town-hall.png"],
   "symbols": ["1st-player"],
   "symbolLayout": "town-hall",
   "quantity": 1

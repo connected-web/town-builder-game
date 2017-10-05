@@ -21,6 +21,10 @@
   top: 25%;
   left: 50%;
 }
+.layout.transform-three .symbol.s1.base.border {
+  width: 550px;
+  margin-left: -275px;
+}
 .layout.transform-three .symbol.s1.base {
   width: 530px;
   margin-left: -265px;

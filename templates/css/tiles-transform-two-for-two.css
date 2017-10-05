@@ -4,6 +4,10 @@
   top: 44%;
   left: 24%;
 }
+.layout.transform-two-for-two .symbol.s0.base.border {
+  margin-left: -200px;
+  width: 400px;
+}
 .layout.transform-two-for-two .symbol.s0.base {
   display: block;
   position: absolute;
@@ -37,6 +41,10 @@
   position: absolute;
   top: 56%;
   left: 76%;
+}
+.layout.transform-two-for-two .symbol.s3.base.border {
+  margin-left: -200px;
+  width: 400px;
 }
 .layout.transform-two-for-two .symbol.s3.base {
   display: block;

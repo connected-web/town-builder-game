@@ -9,7 +9,7 @@
     "convert": ["worker"],
     "into": "wood"
   },
-  "layers": [],
+  "layers": ["/data/assets/backgrounds/wood-cutter.png"],
   "symbols": ["worker-meeple", "convert-to", "wood-block"],
   "symbolLayout": "transform-one",
   "quantity": 2

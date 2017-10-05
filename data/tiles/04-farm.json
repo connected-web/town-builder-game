@@ -9,7 +9,7 @@
     "convert": ["worker"],
     "into": "food"
   },
-  "layers": [],
+  "layers": ["/data/assets/backgrounds/farm.png"],
   "symbols": ["worker-meeple", "convert-to", "food-block"],
   "symbolLayout": "transform-one",
   "quantity": 2

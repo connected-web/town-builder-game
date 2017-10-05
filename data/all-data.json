@@ -10,7 +10,9 @@
       "function": {
         "spawn": "worker"
       },
-      "layers": [],
+      "layers": [
+        "/data/assets/backgrounds/town-hall.png"
+      ],
       "symbols": [
         "1st-player"
       ],
@@ -31,7 +33,9 @@
         ],
         "into": "wood"
       },
-      "layers": [],
+      "layers": [
+        "/data/assets/backgrounds/wood-cutter.png"
+      ],
       "symbols": [
         "worker-meeple",
         "convert-to",
@@ -54,7 +58,9 @@
         ],
         "into": "iron"
       },
-      "layers": [],
+      "layers": [
+        "/data/assets/backgrounds/mine.png"
+      ],
       "symbols": [
         "worker-meeple",
         "convert-to",
@@ -77,7 +83,9 @@
         ],
         "into": "food"
       },
-      "layers": [],
+      "layers": [
+        "/data/assets/backgrounds/farm.png"
+      ],
       "symbols": [
         "worker-meeple",
         "convert-to",
