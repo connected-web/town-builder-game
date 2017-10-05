@@ -177,7 +177,7 @@
       ],
       "into": [
         "gold",
-        2
+        "gold"
       ]
     },
     "layers": [],
@@ -185,7 +185,7 @@
       "food-block",
       "convert-to",
       "gold-block",
-      "x2"
+      "gold-block"
     ],
     "symbolLayout": "transform-one-for-two",
     "quantity": 2,
@@ -204,7 +204,7 @@
       ],
       "into": [
         "gold",
-        2
+        "gold"
       ]
     },
     "layers": [],
@@ -212,7 +212,7 @@
       "wood-block",
       "convert-to",
       "gold-block",
-      "x2"
+      "gold-block"
     ],
     "symbolLayout": "transform-one-for-two",
     "quantity": 2,
@@ -231,7 +231,7 @@
       ],
       "into": [
         "gold",
-        2
+        "gold"
       ]
     },
     "layers": [],
@@ -239,7 +239,7 @@
       "iron-block",
       "convert-to",
       "gold-block",
-      "x2"
+      "gold-block"
     ],
     "symbolLayout": "transform-one-for-two",
     "quantity": 2,
