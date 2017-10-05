@@ -1,20 +1,24 @@
 .layout.transform-two-for-two .symbol.s0 {
   display: block;
   position: absolute;
-  top: 37%;
-  left: 25%;
+  top: 44%;
+  left: 24%;
 }
 .layout.transform-two-for-two .symbol.s0.base {
-  margin-top: -190px;
-  height: 380px;
-  top: 50%;
+  display: block;
+  position: absolute;
+  top: 34%;
+  left: 34%;
+  margin-left: -190px;
+  width: 380px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
-
 .layout.transform-two-for-two .symbol.s1 {
   display: block;
   position: absolute;
-  top: 63%;
-  left: 25%;
+  top: 24%;
+  left: 44%;
 }
 .layout.transform-two-for-two .symbol.s1.base {
   display: none;
@@ -22,30 +26,33 @@
 
 .layout.transform-two-for-two .symbol.s2.convert-to {
   display: block;
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  left: 48%;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 50%;
   top: 50%;
-  background-color: transparent;
 }
 
 .layout.transform-two-for-two .symbol.s3 {
   display: block;
   position: absolute;
-  top: 37%;
-  left: 75%;
+  top: 56%;
+  left: 76%;
 }
 .layout.transform-two-for-two .symbol.s3.base {
-  margin-top: -190px;
-  height: 380px;
-  top: 50%;
+  display: block;
+  position: absolute;
+  top: 66%;
+  left: 66%;
+  margin-left: -190px;
+  width: 380px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
-
 .layout.transform-two-for-two .symbol.s4 {
   display: block;
   position: absolute;
-  top: 63%;
-  left: 75%;
+  top: 76%;
+  left: 56%;
 }
 .layout.transform-two-for-two .symbol.s4.base {
   display: none;
