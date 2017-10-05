@@ -1,0 +1,52 @@
+.layout.transform-two-for-two .symbol.s0 {
+  display: block;
+  position: absolute;
+  top: 37%;
+  left: 25%;
+}
+.layout.transform-two-for-two .symbol.s0.base {
+  margin-top: -190px;
+  height: 380px;
+  top: 50%;
+}
+
+.layout.transform-two-for-two .symbol.s1 {
+  display: block;
+  position: absolute;
+  top: 63%;
+  left: 25%;
+}
+.layout.transform-two-for-two .symbol.s1.base {
+  display: none;
+}
+
+.layout.transform-two-for-two .symbol.s2.convert-to {
+  display: block;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  left: 48%;
+  top: 50%;
+  background-color: transparent;
+}
+
+.layout.transform-two-for-two .symbol.s3 {
+  display: block;
+  position: absolute;
+  top: 37%;
+  left: 75%;
+}
+.layout.transform-two-for-two .symbol.s3.base {
+  margin-top: -190px;
+  height: 380px;
+  top: 50%;
+}
+
+.layout.transform-two-for-two .symbol.s4 {
+  display: block;
+  position: absolute;
+  top: 63%;
+  left: 75%;
+}
+.layout.transform-two-for-two .symbol.s4.base {
+  display: none;
+}

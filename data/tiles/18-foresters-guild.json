@@ -1,0 +1,16 @@
+{
+  "title": "Foresters Guild",
+  "code": "T18",
+  "theme": {
+    "type": "industry"
+  },
+  "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two wood tokens from bank if available.",
+  "function": {
+    "convert": ["worker", "worker"],
+    "into": ["wood", "wood"]
+  },
+  "layers": [],
+  "symbols": ["worker-meeple", "worker-meeple", "convert-to", "wood-block", "wood-block"],
+  "symbolLayout": "transform-two-for-two",
+  "quantity": 1
+}

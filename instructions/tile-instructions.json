@@ -338,5 +338,65 @@
     "data": {
       "$ref": "/data/tiles/17-gem-market.json"
     }
+  },
+  {
+    "asset": "images/tiles/18-foresters-guild.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/18-foresters-guild.json"
+    }
+  },
+  {
+    "asset": "debug/tiles/18-foresters-guild.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/18-foresters-guild.json"
+    }
+  },
+  {
+    "asset": "images/tiles/19-miners-union.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/19-miners-union.json"
+    }
+  },
+  {
+    "asset": "debug/tiles/19-miners-union.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/19-miners-union.json"
+    }
+  },
+  {
+    "asset": "images/tiles/20-communal-farm.png",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/tile-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/20-communal-farm.json"
+    }
+  },
+  {
+    "asset": "debug/tiles/20-communal-farm.html",
+    "template": "/tile-renderer.html",
+    "renderer": {
+      "$ref": "/data/renderer/html-renderer.json"
+    },
+    "data": {
+      "$ref": "/data/tiles/20-communal-farm.json"
+    }
   }
 ]

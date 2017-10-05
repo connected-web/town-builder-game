@@ -1,0 +1,16 @@
+{
+  "title": "Miners Union",
+  "code": "T19",
+  "theme": {
+    "type": "industry"
+  },
+  "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two iron tokens from bank if available.",
+  "function": {
+    "convert": ["worker", "worker"],
+    "into": ["iron", "iron"]
+  },
+  "layers": [],
+  "symbols": ["worker-meeple", "worker-meeple", "convert-to", "iron-block", "iron-block"],
+  "symbolLayout": "transform-two-for-two",
+  "quantity": 1
+}

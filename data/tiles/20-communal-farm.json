@@ -1,0 +1,16 @@
+{
+  "title": "Communal Farm",
+  "code": "T20",
+  "theme": {
+    "type": "industry"
+  },
+  "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two food tokens from bank if available.",
+  "function": {
+    "convert": ["worker", "worker"],
+    "into": ["food", "food"]
+  },
+  "layers": [],
+  "symbols": ["worker-meeple", "worker-meeple", "convert-to", "food-block", "food-block"],
+  "symbolLayout": "transform-two-for-two",
+  "quantity": 1
+}
