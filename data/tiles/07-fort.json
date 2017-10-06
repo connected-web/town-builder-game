@@ -2,7 +2,8 @@
   "title": "Fort",
   "code": "T07",
   "theme": {
-    "type": "castle"
+    "type": "castle",
+    "background": "fort"
   },
   "description": "A player can only claim this tile with a knight, if they have one. If there is a player with less knights then you, then you may steal one resource from that player. You may only steal from one player.",
   "function": {
@@ -10,7 +11,6 @@
     "into": [],
     "steal": true
   },
-  "layers": [],
   "symbols": ["knight-meeple", "convert-to", "steal-action"],
   "symbolLayout": "activate-one",
   "quantity": 2

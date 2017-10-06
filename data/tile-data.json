@@ -3,15 +3,13 @@
     "title": "Town Hall",
     "code": "T01",
     "theme": {
-      "type": "town"
+      "type": "town",
+      "background": "town-hall"
     },
     "description": "When a player has claimed this tile, immediately pass the first player token to this player; that player goes first on the next round.",
     "function": {
       "spawn": "worker"
     },
-    "layers": [
-      "/data/assets/backgrounds/town-hall.png"
-    ],
     "symbols": [
       "1st-player"
     ],
@@ -23,7 +21,8 @@
     "title": "Wood Cutter",
     "code": "T02",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "wood-cutter"
     },
     "description": "A player can claim this tile with a worker, and then may claim a wood token from the bank if available.",
     "function": {
@@ -32,9 +31,6 @@
       ],
       "into": "wood"
     },
-    "layers": [
-      "/data/assets/backgrounds/wood-cutter.png"
-    ],
     "symbols": [
       "worker-meeple",
       "convert-to",
@@ -48,7 +44,8 @@
     "title": "Mine",
     "code": "T03",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "mine"
     },
     "description": "A player can claim this tile with a worker, and then may claim an iron token from the bank if available.",
     "function": {
@@ -57,9 +54,6 @@
       ],
       "into": "iron"
     },
-    "layers": [
-      "/data/assets/backgrounds/mine.png"
-    ],
     "symbols": [
       "worker-meeple",
       "convert-to",
@@ -73,7 +67,8 @@
     "title": "Farm",
     "code": "T04",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "farm"
     },
     "description": "A player can claim this tile with a worker, and then may claim a food token from the bank if available.",
     "function": {
@@ -82,9 +77,6 @@
       ],
       "into": "food"
     },
-    "layers": [
-      "/data/assets/backgrounds/farm.png"
-    ],
     "symbols": [
       "worker-meeple",
       "convert-to",
@@ -98,7 +90,8 @@
     "title": "Barracks",
     "code": "T05",
     "theme": {
-      "type": "castle"
+      "type": "castle",
+      "background": "barracks"
     },
     "description": "A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gem token for a knight from the bank if available.",
     "function": {
@@ -109,7 +102,6 @@
       ],
       "into": "knight"
     },
-    "layers": [],
     "symbols": [
       "food-block",
       "iron-block",
@@ -125,7 +117,8 @@
     "title": "Barracks",
     "code": "T06",
     "theme": {
-      "type": "castle"
+      "type": "castle",
+      "background": "barracks"
     },
     "description": "A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gold token for a knight from the bank if available.",
     "function": {
@@ -136,7 +129,6 @@
       ],
       "into": "knight"
     },
-    "layers": [],
     "symbols": [
       "food-block",
       "iron-block",
@@ -152,7 +144,8 @@
     "title": "Fort",
     "code": "T07",
     "theme": {
-      "type": "castle"
+      "type": "castle",
+      "background": "fort"
     },
     "description": "A player can only claim this tile with a knight, if they have one. If there is a player with less knights then you, then you may steal one resource from that player. You may only steal from one player.",
     "function": {
@@ -162,7 +155,6 @@
       "into": [],
       "steal": true
     },
-    "layers": [],
     "symbols": [
       "knight-meeple",
       "convert-to",
@@ -176,7 +168,8 @@
     "title": "Bakery",
     "code": "T08",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "bakery"
     },
     "description": "A player can claim this tile with a worker, and then may exchange a food token for two gold from the bank if available.",
     "function": {
@@ -188,7 +181,6 @@
         "gold"
       ]
     },
-    "layers": [],
     "symbols": [
       "food-block",
       "convert-to",
@@ -203,7 +195,8 @@
     "title": "Lumber Mill",
     "code": "T09",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "lumber-mill"
     },
     "description": "A player can claim this tile with a worker, and then may exchange a wood token for two gold from the bank if available.",
     "function": {
@@ -215,7 +208,6 @@
         "gold"
       ]
     },
-    "layers": [],
     "symbols": [
       "wood-block",
       "convert-to",
@@ -230,7 +222,8 @@
     "title": "Blacksmith",
     "code": "T10",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "blacksmith"
     },
     "description": "A player can claim this tile with a worker, and then may exchange an iron token for two gold from the bank if available.",
     "function": {
@@ -242,7 +235,6 @@
         "gold"
       ]
     },
-    "layers": [],
     "symbols": [
       "iron-block",
       "convert-to",
@@ -257,7 +249,8 @@
     "title": "Market",
     "code": "T11",
     "theme": {
-      "type": "market"
+      "type": "market",
+      "background": "market"
     },
     "description": "A player can claim this tile with a worker, and then may exchange either an iron token, a wood token, or a food token, for one gold from the bank if available.",
     "functions": [
@@ -274,7 +267,6 @@
         "into": "gold"
       }
     ],
-    "layers": [],
     "symbols": [
       "iron-block",
       "convert-to",
@@ -292,7 +284,8 @@
     "title": "Food Market",
     "code": "T12",
     "theme": {
-      "type": "market"
+      "type": "market",
+      "background": "market"
     },
     "description": "A player can claim this tile with a worker, and then may exchange either a gold token, an iron token, or a wood token, for one food from the bank if available.",
     "functions": [
@@ -309,7 +302,6 @@
         "into": "food"
       }
     ],
-    "layers": [],
     "symbols": [
       "gold-block",
       "convert-to",
@@ -327,7 +319,8 @@
     "title": "Wood Market",
     "code": "T13",
     "theme": {
-      "type": "market"
+      "type": "market",
+      "background": "market"
     },
     "description": "A player can claim this tile with a worker, and then may exchange either an food token, a gold token, or an iron token, for one wood from the bank if available.",
     "functions": [
@@ -344,7 +337,6 @@
         "into": "wood"
       }
     ],
-    "layers": [],
     "symbols": [
       "food-block",
       "convert-to",
@@ -362,7 +354,8 @@
     "title": "Iron Market",
     "code": "T14",
     "theme": {
-      "type": "market"
+      "type": "market",
+      "background": "market"
     },
     "description": "A player can claim this tile with a worker, and then may exchange either an wood token, a food token, or a gold token, for one iron from the bank if available.",
     "functions": [
@@ -379,7 +372,6 @@
         "into": "iron"
       }
     ],
-    "layers": [],
     "symbols": [
       "wood-block",
       "convert-to",
@@ -397,7 +389,8 @@
     "title": "Gem Mine",
     "code": "T15",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "mine"
     },
     "description": "A player can claim this tile with a worker, and then may exchange two iron tokens, for one gem token from the bank if available.",
     "function": {
@@ -407,7 +400,6 @@
       ],
       "into": "gem"
     },
-    "layers": [],
     "symbols": [
       "iron-block",
       "iron-block",
@@ -422,7 +414,8 @@
     "title": "Gem Mine",
     "code": "T16",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "mine"
     },
     "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim one gem token from bank if available.",
     "function": {
@@ -432,7 +425,6 @@
       ],
       "into": "gem"
     },
-    "layers": [],
     "symbols": [
       "worker-meeple",
       "worker-meeple",
@@ -447,7 +439,8 @@
     "title": "Gem Market",
     "code": "T17",
     "theme": {
-      "type": "market"
+      "type": "market",
+      "background": "market"
     },
     "description": "A player may claim this tile with a worker, and then may exchange two gold tokens, for one gem token with the bank if available.",
     "function": {
@@ -457,7 +450,6 @@
       ],
       "into": "gem"
     },
-    "layers": [],
     "symbols": [
       "gold-block",
       "gold-block",
@@ -472,7 +464,8 @@
     "title": "Foresters Guild",
     "code": "T18",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "foresters-guild"
     },
     "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two wood tokens from bank if available.",
     "function": {
@@ -485,7 +478,6 @@
         "wood"
       ]
     },
-    "layers": [],
     "symbols": [
       "worker-meeple",
       "worker-meeple",
@@ -501,7 +493,8 @@
     "title": "Miners Union",
     "code": "T19",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "miners-union"
     },
     "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two iron tokens from bank if available.",
     "function": {
@@ -514,7 +507,6 @@
         "iron"
       ]
     },
-    "layers": [],
     "symbols": [
       "worker-meeple",
       "worker-meeple",
@@ -530,7 +522,8 @@
     "title": "Communal Farm",
     "code": "T20",
     "theme": {
-      "type": "industry"
+      "type": "industry",
+      "background": "communal-farm"
     },
     "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two food tokens from bank if available.",
     "function": {
@@ -543,7 +536,6 @@
         "food"
       ]
     },
-    "layers": [],
     "symbols": [
       "worker-meeple",
       "worker-meeple",

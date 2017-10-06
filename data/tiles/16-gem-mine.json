@@ -2,14 +2,14 @@
   "title": "Gem Mine",
   "code": "T16",
   "theme": {
-    "type": "industry"
+    "type": "industry",
+    "background": "mine"
   },
   "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim one gem token from bank if available.",
   "function": {
     "convert": ["worker", "worker"],
     "into": "gem"
   },
-  "layers": [],
   "symbols": ["worker-meeple", "worker-meeple", "convert-to", "gem-block"],
   "symbolLayout": "transform-two",
   "quantity": 2

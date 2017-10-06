@@ -1,36 +1,34 @@
 <html>
 
 <head>
-    <title>{{title}}</title>
+    <title>{{tile.title}}</title>
 
     <link rel="stylesheet" href="/templates/css/reset.css">
     <link rel="stylesheet" href="/templates/css/tiles.css">
     <link rel="stylesheet" href="/templates/css/themes.css">
-    <link rel="stylesheet" href="/templates/css/tiles-{{symbolLayout}}.css">
+    <link rel="stylesheet" href="/templates/css/tiles-{{tile.symbolLayout}}.css">
 
     <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
-<body class="theme {{theme.type}}">
+<body class="theme {{tile.theme.type}}">
     <div class="layers">
-    {{#each layers}}
-      <div class="layer" style="background-image: url('{{this}}');"></div>
-    {{/each}}
+      <div class="layer" style="background-image: url('/data/assets/backgrounds/{{tile.theme.background}}.png');"></div>
     </div>
-    <div class="layout {{symbolLayout}}">
-    {{#each symbols}}
+    <div class="layout {{tile.symbolLayout}}">
+    {{#each tile.symbols}}
       <div class="symbol s{{@index}} base border {{this}}"></div>
     {{/each}}
-    {{#each symbols}}
+    {{#each tile.symbols}}
       <div class="symbol s{{@index}} base {{this}}"></div>
     {{/each}}
-    {{#each symbols}}
+    {{#each tile.symbols}}
       <div class="symbol s{{@index}} icon {{this}}" style="background-image: url('/data/assets/{{this}}.png')"></div>
     {{/each}}
     </div>
-    <div class="tile title">{{title}}</div>
-    <div class="tile code">{{code}}</div>
+    <div class="tile title">{{tile.title}}</div>
+    <div class="tile code">{{tile.code}}</div>
 </body>
 
 </html>

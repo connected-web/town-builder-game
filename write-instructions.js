@@ -8,7 +8,10 @@ var printableTileTemplate = `{
     "$ref": "/data/renderer/printable-tile-renderer.json"
   },
   "data": {
-    "$ref": "/data/tiles/{name}.json"
+    "assetId": "{name}",
+    "tile": {
+      "$ref": "/data/tiles/{name}.json"
+    }
   }
 }`
 var presentationTileTemplate = `{

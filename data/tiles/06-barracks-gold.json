@@ -2,14 +2,14 @@
   "title": "Barracks",
   "code": "T06",
   "theme": {
-    "type": "castle"
+    "type": "castle",
+    "background": "barracks"
   },
   "description": "A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gold token for a knight from the bank if available.",
   "function": {
     "convert": ["worker", "iron", "gold"],
     "into": "knight"
   },
-  "layers": [],
   "symbols": ["food-block", "iron-block", "gold-block", "convert-to", "knight-meeple"],
   "symbolLayout": "transform-three",
   "quantity": 2

@@ -6,7 +6,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/01-town-hall.json"
+      "assetId": "01-town-hall",
+      "tile": {
+        "$ref": "/data/tiles/01-town-hall.json"
+      }
     }
   },
   {
@@ -16,7 +19,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/02-wood-cutter.json"
+      "assetId": "02-wood-cutter",
+      "tile": {
+        "$ref": "/data/tiles/02-wood-cutter.json"
+      }
     }
   },
   {
@@ -26,7 +32,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/03-mine.json"
+      "assetId": "03-mine",
+      "tile": {
+        "$ref": "/data/tiles/03-mine.json"
+      }
     }
   },
   {
@@ -36,7 +45,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/04-farm.json"
+      "assetId": "04-farm",
+      "tile": {
+        "$ref": "/data/tiles/04-farm.json"
+      }
     }
   },
   {
@@ -46,7 +58,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/05-barracks-gem.json"
+      "assetId": "05-barracks-gem",
+      "tile": {
+        "$ref": "/data/tiles/05-barracks-gem.json"
+      }
     }
   },
   {
@@ -56,7 +71,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/06-barracks-gold.json"
+      "assetId": "06-barracks-gold",
+      "tile": {
+        "$ref": "/data/tiles/06-barracks-gold.json"
+      }
     }
   },
   {
@@ -66,7 +84,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/07-fort.json"
+      "assetId": "07-fort",
+      "tile": {
+        "$ref": "/data/tiles/07-fort.json"
+      }
     }
   },
   {
@@ -76,7 +97,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/08-bakery.json"
+      "assetId": "08-bakery",
+      "tile": {
+        "$ref": "/data/tiles/08-bakery.json"
+      }
     }
   },
   {
@@ -86,7 +110,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/09-lumber-mill.json"
+      "assetId": "09-lumber-mill",
+      "tile": {
+        "$ref": "/data/tiles/09-lumber-mill.json"
+      }
     }
   },
   {
@@ -96,7 +123,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/10-blacksmith.json"
+      "assetId": "10-blacksmith",
+      "tile": {
+        "$ref": "/data/tiles/10-blacksmith.json"
+      }
     }
   },
   {
@@ -106,7 +136,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/11-market-gold.json"
+      "assetId": "11-market-gold",
+      "tile": {
+        "$ref": "/data/tiles/11-market-gold.json"
+      }
     }
   },
   {
@@ -116,7 +149,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/12-market-food.json"
+      "assetId": "12-market-food",
+      "tile": {
+        "$ref": "/data/tiles/12-market-food.json"
+      }
     }
   },
   {
@@ -126,7 +162,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/13-market-wood.json"
+      "assetId": "13-market-wood",
+      "tile": {
+        "$ref": "/data/tiles/13-market-wood.json"
+      }
     }
   },
   {
@@ -136,7 +175,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/14-market-iron.json"
+      "assetId": "14-market-iron",
+      "tile": {
+        "$ref": "/data/tiles/14-market-iron.json"
+      }
     }
   },
   {
@@ -146,7 +188,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/15-gem-mine-iron.json"
+      "assetId": "15-gem-mine-iron",
+      "tile": {
+        "$ref": "/data/tiles/15-gem-mine-iron.json"
+      }
     }
   },
   {
@@ -156,7 +201,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/16-gem-mine.json"
+      "assetId": "16-gem-mine",
+      "tile": {
+        "$ref": "/data/tiles/16-gem-mine.json"
+      }
     }
   },
   {
@@ -166,7 +214,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/17-gem-market.json"
+      "assetId": "17-gem-market",
+      "tile": {
+        "$ref": "/data/tiles/17-gem-market.json"
+      }
     }
   },
   {
@@ -176,7 +227,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/18-foresters-guild.json"
+      "assetId": "18-foresters-guild",
+      "tile": {
+        "$ref": "/data/tiles/18-foresters-guild.json"
+      }
     }
   },
   {
@@ -186,7 +240,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/19-miners-union.json"
+      "assetId": "19-miners-union",
+      "tile": {
+        "$ref": "/data/tiles/19-miners-union.json"
+      }
     }
   },
   {
@@ -196,7 +253,10 @@
       "$ref": "/data/renderer/printable-tile-renderer.json"
     },
     "data": {
-      "$ref": "/data/tiles/20-communal-farm.json"
+      "assetId": "20-communal-farm",
+      "tile": {
+        "$ref": "/data/tiles/20-communal-farm.json"
+      }
     }
   }
 ]

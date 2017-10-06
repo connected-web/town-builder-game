@@ -2,7 +2,8 @@
   "title": "Iron Market",
   "code": "T14",
   "theme": {
-    "type": "market"
+    "type": "market",
+    "background": "market"
   },
   "description": "A player can claim this tile with a worker, and then may exchange either an wood token, a food token, or a gold token, for one iron from the bank if available.",
   "functions": [{
@@ -18,7 +19,6 @@
       "into": "iron"
     }
   ],
-  "layers": [],
   "symbols": ["wood-block", "convert-to", "food-block", "convert-to", "gold-block", "convert-to", "iron-block"],
   "symbolLayout": "market-sell-three",
   "quantity": 2

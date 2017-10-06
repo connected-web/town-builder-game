@@ -2,14 +2,14 @@
   "title": "Farm",
   "code": "T04",
   "theme": {
-    "type": "industry"
+    "type": "industry",
+    "background": "farm"
   },
   "description": "A player can claim this tile with a worker, and then may claim a food token from the bank if available.",
   "function": {
     "convert": ["worker"],
     "into": "food"
   },
-  "layers": ["/data/assets/backgrounds/farm.png"],
   "symbols": ["worker-meeple", "convert-to", "food-block"],
   "symbolLayout": "transform-one",
   "quantity": 2

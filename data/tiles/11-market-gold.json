@@ -2,7 +2,8 @@
   "title": "Market",
   "code": "T11",
   "theme": {
-    "type": "market"
+    "type": "market",
+    "background": "market"
   },
   "description": "A player can claim this tile with a worker, and then may exchange either an iron token, a wood token, or a food token, for one gold from the bank if available.",
   "functions": [{
@@ -18,7 +19,6 @@
       "into": "gold"
     }
   ],
-  "layers": [],
   "symbols": ["iron-block", "convert-to", "wood-block", "convert-to", "food-block", "convert-to", "gold-block"],
   "symbolLayout": "market-sell-three",
   "quantity": 2

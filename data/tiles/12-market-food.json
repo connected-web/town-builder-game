@@ -2,7 +2,8 @@
   "title": "Food Market",
   "code": "T12",
   "theme": {
-    "type": "market"
+    "type": "market",
+    "background": "market"
   },
   "description": "A player can claim this tile with a worker, and then may exchange either a gold token, an iron token, or a wood token, for one food from the bank if available.",
   "functions": [{
@@ -18,7 +19,6 @@
       "into": "food"
     }
   ],
-  "layers": [],
   "symbols": ["gold-block", "convert-to", "iron-block", "convert-to", "wood-block", "convert-to", "food-block"],
   "symbolLayout": "market-sell-three",
   "quantity": 2

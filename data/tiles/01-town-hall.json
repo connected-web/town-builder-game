@@ -2,13 +2,13 @@
   "title": "Town Hall",
   "code": "T01",
   "theme": {
-    "type": "town"
+    "type": "town",
+    "background": "town-hall"
   },
   "description": "When a player has claimed this tile, immediately pass the first player token to this player; that player goes first on the next round.",
   "function": {
     "spawn": "worker"
   },
-  "layers": ["/data/assets/backgrounds/town-hall.png"],
   "symbols": ["1st-player"],
   "symbolLayout": "town-hall",
   "quantity": 1
