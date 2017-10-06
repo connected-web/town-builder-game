@@ -1,27 +1,34 @@
 let { find, read, write } = require('promise-path')
 let path = require('path')
 
-var outputFile = './instructions/tile-instructions.json'
-var tileTemplate = `{
+var printableTileTemplate = `{
+  "asset": "images/tiles/printable-{name}.png",
+  "template": "/printable-tile-template.html",
+  "renderer": {
+    "$ref": "/data/renderer/printable-tile-renderer.json"
+  },
+  "data": {
+    "$ref": "/data/tiles/{name}.json"
+  }
+}`
+var presentationTileTemplate = `{
   "asset": "images/tiles/{name}.png",
-  "template": "/tile-template.html",
+  "template": "/presentation-tile-template.html",
   "renderer": {
-    "$ref": "/data/renderer/tile-renderer.json"
+    "$ref": "/data/renderer/presentation-tile-renderer.json"
   },
   "data": {
-    "$ref": "/data/tiles/{name}.json"
+    "sourceAsset": "/output/images/tiles/printable-{name}.png",
+    "tile": {
+      "$ref": "/data/tiles/{name}.json"
+    }
   }
 }`
-var htmlTemplate = `{
-  "asset": "debug/tiles/{name}.html",
-  "template": "/tile-template.html",
-  "renderer": {
-    "$ref": "/data/renderer/html-renderer.json"
-  },
-  "data": {
-    "$ref": "/data/tiles/{name}.json"
-  }
-}`
+
+function createInstruction(name, template, instructions) {
+  let instruction = JSON.parse(template.replace(/{name}/g, name))
+  instructions.push(instruction)
+}
 
 const pp = (data) => JSON.stringify(data, null, 2)
 
@@ -43,36 +50,63 @@ function displayError(ex) {
   console.error('Error:', ex, ex.stack)
 }
 
-var instructions = []
-find('./data/tiles/*.json')
-  .then(files => files.map(filepath => path.basename(filepath)))
-  .then(files => files.map(filename => filename.slice(0, -5)))
-  .then(files => files.map(file => {
-    createInstruction(file, tileTemplate)
-    createInstruction(file, htmlTemplate)
-    return file
-  }))
-  .then(files => write('./data/tile-assets.json', pp(files), 'utf8'))
-  .then(() => write(outputFile, pp(instructions), 'utf8'))
-  .then(result => console.log(`Created ${outputFile}`))
-  .catch(displayError)
+function writePrintableTileInstructions() {
+  var instructions = []
+  var outputFile = './instructions/01-printable-tile-instructions.json'
+  return find('./data/tiles/*.json')
+    .then(files => files.map(filepath => path.basename(filepath)))
+    .then(files => files.map(filename => filename.slice(0, -5)))
+    .then(files => files.map(file => {
+      createInstruction(file, printableTileTemplate, instructions)
+      return file
+    }))
+    .then(files => write('./data/tile-assets.json', pp(files), 'utf8'))
+    .then(() => write(outputFile, pp(instructions), 'utf8'))
+    .then(result => console.log(`Created ${outputFile}`))
+    .catch(displayError)
+}
 
-find('./data/tiles/*.json')
-  .then(files => Promise.all(readAssets(files)))
-  .then(files => write('./data/tile-data.json', pp(files), 'utf8'))
-  .then(result => console.log(`Created ./data/tile-data.json`))
-  .catch(displayError)
+function writePresentationTileInstructions() {
+  var instructions = []
+  var outputFile = './instructions/02-presentation-tile-instructions.json'
+  return find('./data/tiles/*.json')
+    .then(files => files.map(filepath => path.basename(filepath)))
+    .then(files => files.map(filename => filename.slice(0, -5)))
+    .then(files => files.map(file => {
+      createInstruction(file, presentationTileTemplate, instructions)
+      return file
+    }))
+    .then(files => write('./data/tile-assets.json', pp(files), 'utf8'))
+    .then(() => write(outputFile, pp(instructions), 'utf8'))
+    .then(result => console.log(`Created ${outputFile}`))
+    .catch(displayError)
+}
+
+function writeTileData() {
+  const outputFile = './data/tile-data.json'
+  return find('./data/tiles/*.json')
+    .then(files => Promise.all(readAssets(files)))
+    .then(files => write(outputFile, pp(files), 'utf8'))
+    .then(result => console.log(`Created ${outputFile}`))
+    .catch(displayError)
+}
+
+function writeAllData() {
+  const outputFile = './data/all-data.json'
+  Promise.all([
+    readAsset('./data/tile-data.json')
+  ])
+  .then((assets) => {
+    return write(outputFile, pp({
+      tiles: assets[0]
+    }), 'utf8')
+      .then(result => console.log(`Created ${outputFile}`))
+  })
+}
 
 Promise.all([
-  readAsset('./data/tile-data.json')
+  writeTileData(),
+  writePrintableTileInstructions(),
+  writePresentationTileInstructions(),
+  writeAllData()
 ])
-.then((assets) => {
-  return write('./data/all-data.json', pp({
-    tiles: assets[0]
-  }), 'utf8')
-})
-
-function createInstruction(name, template) {
-  let instruction = JSON.parse(template.replace(/{name}/g, name))
-  instructions.push(instruction)
-}

@@ -1,0 +1,262 @@
+[
+  {
+    "asset": "images/tiles/01-town-hall.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-01-town-hall.png",
+      "tile": {
+        "$ref": "/data/tiles/01-town-hall.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/02-wood-cutter.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-02-wood-cutter.png",
+      "tile": {
+        "$ref": "/data/tiles/02-wood-cutter.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/03-mine.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-03-mine.png",
+      "tile": {
+        "$ref": "/data/tiles/03-mine.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/04-farm.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-04-farm.png",
+      "tile": {
+        "$ref": "/data/tiles/04-farm.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/05-barracks-gem.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-05-barracks-gem.png",
+      "tile": {
+        "$ref": "/data/tiles/05-barracks-gem.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/06-barracks-gold.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-06-barracks-gold.png",
+      "tile": {
+        "$ref": "/data/tiles/06-barracks-gold.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/07-fort.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-07-fort.png",
+      "tile": {
+        "$ref": "/data/tiles/07-fort.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/08-bakery.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-08-bakery.png",
+      "tile": {
+        "$ref": "/data/tiles/08-bakery.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/09-lumber-mill.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-09-lumber-mill.png",
+      "tile": {
+        "$ref": "/data/tiles/09-lumber-mill.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/10-blacksmith.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-10-blacksmith.png",
+      "tile": {
+        "$ref": "/data/tiles/10-blacksmith.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/11-market-gold.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-11-market-gold.png",
+      "tile": {
+        "$ref": "/data/tiles/11-market-gold.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/12-market-food.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-12-market-food.png",
+      "tile": {
+        "$ref": "/data/tiles/12-market-food.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/13-market-wood.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-13-market-wood.png",
+      "tile": {
+        "$ref": "/data/tiles/13-market-wood.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/14-market-iron.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-14-market-iron.png",
+      "tile": {
+        "$ref": "/data/tiles/14-market-iron.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/15-gem-mine-iron.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-15-gem-mine-iron.png",
+      "tile": {
+        "$ref": "/data/tiles/15-gem-mine-iron.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/16-gem-mine.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-16-gem-mine.png",
+      "tile": {
+        "$ref": "/data/tiles/16-gem-mine.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/17-gem-market.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-17-gem-market.png",
+      "tile": {
+        "$ref": "/data/tiles/17-gem-market.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/18-foresters-guild.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-18-foresters-guild.png",
+      "tile": {
+        "$ref": "/data/tiles/18-foresters-guild.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/19-miners-union.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-19-miners-union.png",
+      "tile": {
+        "$ref": "/data/tiles/19-miners-union.json"
+      }
+    }
+  },
+  {
+    "asset": "images/tiles/20-communal-farm.png",
+    "template": "/presentation-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/presentation-tile-renderer.json"
+    },
+    "data": {
+      "sourceAsset": "/output/images/tiles/printable-20-communal-farm.png",
+      "tile": {
+        "$ref": "/data/tiles/20-communal-farm.json"
+      }
+    }
+  }
+]
