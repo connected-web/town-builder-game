@@ -107,9 +107,21 @@ function writeAllData() {
   })
 }
 
+function howManyTiles() {
+  return read('./data/tile-data.json')
+    .then(JSON.parse)
+    .then(data => {
+      const numberOfTiles = data.reduce((result, tile) => {
+        return result + tile.quantity
+      }, 0)
+      console.log(`Expecting ${numberOfTiles} tiles total.`)
+    })
+}
+
 Promise.all([
   writeTileData(),
   writePrintableTileInstructions(),
   writePresentationTileInstructions(),
   writeAllData()
 ])
+.then(howManyTiles)

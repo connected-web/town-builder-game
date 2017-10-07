@@ -10,7 +10,7 @@
   display: block;
   position: absolute;
   top: 25%;
-  left: 25%;
+  left: 33%;
 }
 .layout.transform-three .symbol.s0.base {
   display: none;
@@ -22,18 +22,18 @@
   left: 50%;
 }
 .layout.transform-three .symbol.s1.base.border {
-  width: 550px;
-  margin-left: -275px;
+  width: 420px;
+  margin-left: -210px;
 }
 .layout.transform-three .symbol.s1.base {
-  width: 530px;
-  margin-left: -265px;
+  width: 400px;
+  margin-left: -200px;
 }
 .layout.transform-three .symbol.s2 {
   display: block;
   position: absolute;
   top: 25%;
-  left: 75%;
+  left: 67%;
 }
 .layout.transform-three .symbol.s2.base {
   display: none;

@@ -16,28 +16,28 @@
 .layout.transform-one-for-two .symbol.s2 {
   display: block;
   position: absolute;
-  top: 56%;
-  left: 76%;
+  top: 58%;
+  left: 74%;
 }
 .layout.transform-one-for-two .symbol.s2.base.border {
-  margin-left: -200px;
-  width: 400px;
+  margin-left: -160px;
+  width: 320px;
 }
 .layout.transform-one-for-two .symbol.s2.base {
   display: block;
   position: absolute;
   top: 66%;
   left: 66%;
-  margin-left: -190px;
-  width: 380px;
+  margin-left: -150px;
+  width: 300px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 .layout.transform-one-for-two .symbol.s3 {
   display: block;
   position: absolute;
-  top: 76%;
-  left: 56%;
+  top: 74%;
+  left: 58%;
 }
 .layout.transform-one-for-two .symbol.s3.base {
   display: none;

@@ -1,28 +1,28 @@
 .layout.transform-two .symbol.s0 {
   display: block;
   position: absolute;
-  top: 44%;
-  left: 24%;
+  top: 42%;
+  left: 26%;
 }
 .layout.transform-two .symbol.s0.base.border {
-  margin-left: -200px;
-  width: 400px;
+  margin-left: -160px;
+  width: 320px;
 }
 .layout.transform-two .symbol.s0.base {
   display: block;
   position: absolute;
   top: 34%;
   left: 34%;
-  margin-left: -190px;
-  width: 380px;
+  margin-left: -150px;
+  width: 300px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 .layout.transform-two .symbol.s1 {
   display: block;
   position: absolute;
-  top: 24%;
-  left: 44%;
+  top: 26%;
+  left: 42%;
 }
 .layout.transform-two .symbol.s1.base {
   display: none;
