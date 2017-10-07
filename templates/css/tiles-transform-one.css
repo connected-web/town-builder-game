@@ -1,19 +1,25 @@
 .layout.transform-one .symbol.s0 {
   display: block;
   position: absolute;
-  top: 29%;
-  left: 29%;
+  top: 31%;
+  left: 31%;
 }
 .layout.transform-one .symbol.convert-to {
   display: block;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  left: 50%;
-  top: 50%;
+  left: 48%;
+  top: 48%;
 }
 .layout.transform-one .symbol.s2 {
   display: block;
   position: absolute;
-  top: 71%;
-  left: 71%;
+  top: 69%;
+  left: 69%;
+}
+.layout.transform-one .symbol.s2.base {
+  background: #EEE;
+}
+.layout.transform-one .symbol.s2.border {
+  background: rgba(0, 0, 0, 0.5);
 }

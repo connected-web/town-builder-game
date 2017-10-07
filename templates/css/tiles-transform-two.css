@@ -34,6 +34,12 @@
   left: 50%;
   top: 50%;
 }
+.layout.transform-two .symbol.s3.base {
+  background: #EEE;
+}
+.layout.transform-two .symbol.s3.border {
+  background: rgba(0, 0, 0, 0.5)
+}
 .layout.transform-two .symbol.s3 {
   display: block;
   position: absolute;

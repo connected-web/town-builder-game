@@ -32,8 +32,8 @@
   display: block;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  left: 50%;
-  top: 50%;
+  left: 47%;
+  top: 47%;
 }
 
 .layout.transform-two-for-two .symbol.s3 {
@@ -45,6 +45,7 @@
 .layout.transform-two-for-two .symbol.s3.base.border {
   margin-left: -160px;
   width: 320px;
+  background: rgba(0, 0, 0, 0.5)
 }
 .layout.transform-two-for-two .symbol.s3.base {
   display: block;
@@ -55,6 +56,7 @@
   width: 300px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  background: #EEE;
 }
 .layout.transform-two-for-two .symbol.s4 {
   display: block;

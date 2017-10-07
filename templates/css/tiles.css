@@ -14,6 +14,10 @@ html, body {
   bottom: 52px;
   font-size: 36px;
   line-height: 100%;
+
+  background: rgba(0,0,0,0.5);
+  padding: 10px 10px 6px 10px;
+  border-radius: 6px;
 }
 .tile.code {
   text-align: center;
@@ -23,9 +27,10 @@ html, body {
   right: 52px;
   bottom: 52px;
   font-size: 36px;
-  background: rgba(0,0,0,0.4);
-  padding: 6px 10px 10px 10px;
   line-height: 100%;
+
+  background: rgba(0,0,0,0.5);
+  padding: 6px 10px 10px 10px;
   border-radius: 6px;
 }
 .layers {
@@ -49,7 +54,7 @@ html, body {
   margin-top: -90px;
 }
 .symbol.base {
-  background: #EEE;
+  background: #FEFEFE;
   width: 160px;
   height: 160px;
   border-radius: 80px;
