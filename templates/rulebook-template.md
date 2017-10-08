@@ -89,7 +89,7 @@ The _Builder's Stack_ is the stack of tiles used build the town round by round. 
 
 ### Builder's Token
 
-The _Builder's Token_ is a physical marker that indicates which player goes first each round. The player with the _Builder's Token_ expands the town and gets to play first each round. Players can claim the _Builder's Token_ for themselves by claiming the _Town Hall_ on their turn.
+The _Builder's Token_ is a physical marker that indicates which player goes first each round. The player with the _Builder's Token_ expands the town by placing a new tile, and gets to place a worker first each round. Players can claim the _Builder's Token_ for themselves by being the first to place a worker on the _Town Hall_ tile on their turn.
 
 ## Knights
 
