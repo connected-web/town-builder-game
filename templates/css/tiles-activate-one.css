@@ -19,7 +19,7 @@
   left: 50%;
 }
 .layout.activate-one .symbol.s2.base {
-  background: #EEE;
+  background: url('/data/assets/symbol-texture.png');
 }
 .layout.activate-one .symbol.s2.border {
   background: rgba(0, 0, 0, 0.5);

@@ -46,7 +46,7 @@
   left: 71%;
 }
 .layout.market-sell-three .symbol.s6.base {
-  background: #EEE;
+  background: url('/data/assets/symbol-texture.png');
 }
 .layout.market-sell-three .symbol.s6.border {
   background: rgba(0, 0, 0, 0.5);

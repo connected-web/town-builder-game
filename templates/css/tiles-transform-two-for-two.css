@@ -56,7 +56,7 @@
   width: 300px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background: #EEE;
+  background: url('/data/assets/symbol-texture.png');
 }
 .layout.transform-two-for-two .symbol.s4 {
   display: block;

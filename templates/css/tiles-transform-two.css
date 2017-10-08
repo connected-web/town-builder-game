@@ -35,7 +35,7 @@
   top: 50%;
 }
 .layout.transform-two .symbol.s3.base {
-  background: #EEE;
+  background: url('/data/assets/symbol-texture.png');
 }
 .layout.transform-two .symbol.s3.border {
   background: rgba(0, 0, 0, 0.5)
