@@ -5,7 +5,7 @@
     "type": "industry",
     "background": "foresters-guild"
   },
-  "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two wood tokens from bank if available.",
+  "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two wood tokens from the bank if available.",
   "function": {
     "convert": ["worker", "worker"],
     "into": ["wood", "wood"]

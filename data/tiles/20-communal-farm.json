@@ -5,7 +5,7 @@
     "type": "industry",
     "background": "communal-farm"
   },
-  "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two food tokens from bank if available.",
+  "description": "A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two food tokens from the bank if available.",
   "function": {
     "convert": ["worker", "worker"],
     "into": ["food", "food"]
