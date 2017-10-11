@@ -1,5 +1,21 @@
 [
   {
+    "title": "Mayor's Token",
+    "code": "",
+    "theme": {
+      "type": "token",
+      "background": "throne"
+    },
+    "description": "This token represents who takes the first turn in a round. It can be claimed during a round by claiming the Town Hall tile with a worker.",
+    "function": {},
+    "symbols": [
+      "1st-player"
+    ],
+    "symbolLayout": "town-hall",
+    "quantity": 1,
+    "assetId": "00-mayors-token"
+  },
+  {
     "title": "Town Hall",
     "code": "T01",
     "theme": {
@@ -8,7 +24,7 @@
     },
     "description": "When a player has claimed this tile, immediately pass the first player token to this player; that player goes first on the next round.",
     "function": {
-      "spawn": "worker"
+      "claim": "mayors-token"
     },
     "symbols": [
       "1st-player"

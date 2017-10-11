@@ -1,5 +1,18 @@
 [
   {
+    "asset": "images/tiles/printable-00-mayors-token.png",
+    "template": "/printable-tile-template.html",
+    "renderer": {
+      "$ref": "/data/renderer/printable-tile-renderer.json"
+    },
+    "data": {
+      "assetId": "00-mayors-token",
+      "tile": {
+        "$ref": "/data/tiles/00-mayors-token.json"
+      }
+    }
+  },
+  {
     "asset": "images/tiles/printable-01-town-hall.png",
     "template": "/printable-tile-template.html",
     "renderer": {

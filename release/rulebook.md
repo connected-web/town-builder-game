@@ -37,7 +37,7 @@ Players | Starting Workers | Starting Resources
 2. Give each player a number of Worker meeples based on the number of players in the table above.
 3. Shuffle the remaining town tiles face down, pick 20 tiles at random and stack them up to the side of the play area in easy reach of all players. This stack is called the _Builder's Stack_.
 4. Put any remaining tiles back in the box.
-5. Give the _Builder's Token_ to the starting player
+5. Give the _Mayor's Token_ to the starting player
 
 ## Starting Player
 
@@ -45,9 +45,9 @@ The first player should be the person who most recently bought or sold something
 
 ## Game play
 
-The player with the _Builder's Token_ draws the top tile from the _Builder's Stack_ and places it into the town adjacent to an existing tile.
+The player with the _Mayor's Token_ draws the top tile from the _Builder's Stack_ and places it into the town adjacent to an existing tile.
 
-Starting with the player who has the _Builder's Token_, each player must then either:
+Starting with the player who has the _Mayor's Token_, each player must then either:
 
 1. Place a worker to claim a tile
 2. Place a knight (if they own one) and a worker to claim a fort
@@ -59,7 +59,7 @@ Play continues clockwise until all players have used up their available workers 
 
 Once all players have ended their turns, the round has ended. Each player should reclaim their knights, and take back the same number of workers that they started the game with.
 
-Play then continues from the player who has the _Builder's Token_, which may have changed due to activation effect of the _Town Hall_ tile.
+Play then continues from the player who has the _Mayor's Token_, which may have changed due to activation effect of the _Town Hall_ tile.
 
 If there are no more tiles in the _Builder's Stack_ at the start of a round then the game ends.
 
@@ -78,102 +78,102 @@ If there is a shortage of a certain type of resource, try trading goods at a mar
 
 <img src="./images/tiles/01-town-hall.png" alt="Town Hall" width="250" />
 
-When a player has claimed this tile, immediately pass the first player token to this player; that player goes first on the next round. 
+When a player has claimed this tile, immediately pass the first player token to this player; that player goes first on the next round.
 ### T02 : Wood Cutter - Quantity: 2
 
 <img src="./images/tiles/02-wood-cutter.png" alt="Wood Cutter" width="250" />
 
-A player can claim this tile with a worker, and then may claim a wood token from the bank if available. 
+A player can claim this tile with a worker, and then may claim a wood token from the bank if available.
 ### T03 : Mine - Quantity: 2
 
 <img src="./images/tiles/03-mine.png" alt="Mine" width="250" />
 
-A player can claim this tile with a worker, and then may claim an iron token from the bank if available. 
+A player can claim this tile with a worker, and then may claim an iron token from the bank if available.
 ### T04 : Farm - Quantity: 2
 
 <img src="./images/tiles/04-farm.png" alt="Farm" width="250" />
 
-A player can claim this tile with a worker, and then may claim a food token from the bank if available. 
+A player can claim this tile with a worker, and then may claim a food token from the bank if available.
 ### T05 : Barracks - Quantity: 2
 
 <img src="./images/tiles/05-barracks-gem.png" alt="Barracks" width="250" />
 
-A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gem token for a knight from the bank if available. 
+A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gem token for a knight from the bank if available.
 ### T06 : Barracks - Quantity: 2
 
 <img src="./images/tiles/06-barracks-gold.png" alt="Barracks" width="250" />
 
-A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gold token for a knight from the bank if available. 
+A player can claim this tile with a worker, when they do, they may exchange a food token, an iron token, and a gold token for a knight from the bank if available.
 ### T07 : Fort - Quantity: 2
 
 <img src="./images/tiles/07-fort.png" alt="Fort" width="250" />
 
-A player can only claim this tile with a knight, if they have one. If there is a player with less knights then you, then you may steal one resource from that player. You may only steal from one player. 
+A player can only claim this tile with a knight, if they have one. If there is a player with less knights then you, then you may steal one resource from that player. You may only steal from one player.
 ### T08 : Bakery - Quantity: 2
 
 <img src="./images/tiles/08-bakery.png" alt="Bakery" width="250" />
 
-A player can claim this tile with a worker, and then may exchange a food token for two gold from the bank if available. 
+A player can claim this tile with a worker, and then may exchange a food token for two gold from the bank if available.
 ### T09 : Lumber Mill - Quantity: 2
 
 <img src="./images/tiles/09-lumber-mill.png" alt="Lumber Mill" width="250" />
 
-A player can claim this tile with a worker, and then may exchange a wood token for two gold from the bank if available. 
+A player can claim this tile with a worker, and then may exchange a wood token for two gold from the bank if available.
 ### T10 : Blacksmith - Quantity: 2
 
 <img src="./images/tiles/10-blacksmith.png" alt="Blacksmith" width="250" />
 
-A player can claim this tile with a worker, and then may exchange an iron token for two gold from the bank if available. 
+A player can claim this tile with a worker, and then may exchange an iron token for two gold from the bank if available.
 ### T11 : Market - Quantity: 2
 
 <img src="./images/tiles/11-market-gold.png" alt="Market" width="250" />
 
-A player can claim this tile with a worker, and then may exchange either an iron token, a wood token, or a food token, for one gold from the bank if available. 
+A player can claim this tile with a worker, and then may exchange either an iron token, a wood token, or a food token, for one gold from the bank if available.
 ### T12 : Food Market - Quantity: 2
 
 <img src="./images/tiles/12-market-food.png" alt="Food Market" width="250" />
 
-A player can claim this tile with a worker, and then may exchange either a gold token, an iron token, or a wood token, for one food from the bank if available. 
+A player can claim this tile with a worker, and then may exchange either a gold token, an iron token, or a wood token, for one food from the bank if available.
 ### T13 : Wood Market - Quantity: 2
 
 <img src="./images/tiles/13-market-wood.png" alt="Wood Market" width="250" />
 
-A player can claim this tile with a worker, and then may exchange either an food token, a gold token, or an iron token, for one wood from the bank if available. 
+A player can claim this tile with a worker, and then may exchange either an food token, a gold token, or an iron token, for one wood from the bank if available.
 ### T14 : Iron Market - Quantity: 2
 
 <img src="./images/tiles/14-market-iron.png" alt="Iron Market" width="250" />
 
-A player can claim this tile with a worker, and then may exchange either an wood token, a food token, or a gold token, for one iron from the bank if available. 
+A player can claim this tile with a worker, and then may exchange either an wood token, a food token, or a gold token, for one iron from the bank if available.
 ### T15 : Gem Mine - Quantity: 2
 
 <img src="./images/tiles/15-gem-mine-iron.png" alt="Gem Mine" width="250" />
 
-A player can claim this tile with a worker, and then may exchange two iron tokens, for one gem token from the bank if available. 
+A player can claim this tile with a worker, and then may exchange two iron tokens, for one gem token from the bank if available.
 ### T16 : Gem Mine - Quantity: 2
 
 <img src="./images/tiles/16-gem-mine.png" alt="Gem Mine" width="250" />
 
-A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim one gem token from the bank if available. 
+A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim one gem token from the bank if available.
 ### T17 : Gem Market - Quantity: 2
 
 <img src="./images/tiles/17-gem-market.png" alt="Gem Market" width="250" />
 
-A player may claim this tile with a worker, and then may exchange two gold tokens, for one gem token with the bank if available. 
+A player may claim this tile with a worker, and then may exchange two gold tokens, for one gem token with the bank if available.
 ### T18 : Foresters Guild - Quantity: 1
 
 <img src="./images/tiles/18-foresters-guild.png" alt="Foresters Guild" width="250" />
 
-A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two wood tokens from the bank if available. 
+A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two wood tokens from the bank if available.
 ### T19 : Miners Union - Quantity: 1
 
 <img src="./images/tiles/19-miners-union.png" alt="Miners Union" width="250" />
 
-A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two iron tokens from the bank if available. 
+A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two iron tokens from the bank if available.
 ### T20 : Communal Farm - Quantity: 1
 
 <img src="./images/tiles/20-communal-farm.png" alt="Communal Farm" width="250" />
 
-A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two food tokens from the bank if available. 
+A player may claim this tile with one or two workers; if they claimed the tile with two workers, they may then claim two food tokens from the bank if available.
 
 ## Glossary
 
@@ -181,9 +181,9 @@ A player may claim this tile with one or two workers; if they claimed the tile w
 
 The _Builder's Stack_ is the stack of tiles used build the town round by round. The game ends at the end of the round when the _Builder's Stack_ is empty. The _Builder's Stack_ is created at the start of the game by shuffling and randomly drawing 20 tiles.
 
-### Builder's Token
+### Mayor's Token
 
-The _Builder's Token_ is a physical marker that indicates which player goes first each round. The player with the _Builder's Token_ expands the town and gets to play first each round. Players can claim the _Builder's Token_ for themselves by claiming the _Town Hall_ on their turn.
+The _Mayor's Token_ is a physical marker that indicates which player goes first each round. The player with the _Mayor's Token_ expands the town and gets to play first each round. Players can claim the _Mayor's Token_ for themselves by claiming the _Town Hall_ on their turn.
 
 ## Knights
 
@@ -207,7 +207,7 @@ Tokens represent resources that can be exchanged for other resources by claiming
 
 ### Town Hall
 
-The _Town Hall_ is the starting tile around which the town is built. Any player can claim the _Town Hall_ with a worker in order to take the _Builder's Token_ and go first on the next round.
+The _Town Hall_ is the starting tile around which the town is built. Any player can claim the _Town Hall_ with a worker in order to take the _Mayor's Token_ and go first on the next round.
 
 ### Warehouse
 

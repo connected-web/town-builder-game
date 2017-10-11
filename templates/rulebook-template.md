@@ -37,7 +37,7 @@ Players | Starting Workers | Starting Resources
 2. Give each player a number of Worker meeples based on the number of players in the table above.
 3. Shuffle the remaining town tiles face down, pick 20 tiles at random and stack them up to the side of the play area in easy reach of all players. This stack is called the _Builder's Stack_.
 4. Put any remaining tiles back in the box.
-5. Give the _Builder's Token_ to the starting player
+5. Give the _Mayor's Token_ to the starting player
 
 ## Starting Player
 
@@ -45,9 +45,9 @@ The first player should be the person who most recently bought or sold something
 
 ## Game play
 
-The player with the _Builder's Token_ draws the top tile from the _Builder's Stack_ and places it into the town adjacent to an existing tile.
+The player with the _Mayor's Token_ draws the top tile from the _Builder's Stack_ and places it into the town adjacent to an existing tile.
 
-Starting with the player who has the _Builder's Token_, each player must then either:
+Starting with the player who has the _Mayor's Token_, each player must then either:
 
 1. Place a worker to claim a tile
 2. Place a knight (if they own one) and a worker to claim a fort
@@ -59,7 +59,7 @@ Play continues clockwise until all players have used up their available workers 
 
 Once all players have ended their turns, the round has ended. Each player should reclaim their knights, and take back the same number of workers that they started the game with.
 
-Play then continues from the player who has the _Builder's Token_, which may have changed due to activation effect of the _Town Hall_ tile.
+Play then continues from the player who has the _Mayor's Token_, which may have changed due to activation effect of the _Town Hall_ tile.
 
 If there are no more tiles in the _Builder's Stack_ at the start of a round then the game ends.
 
@@ -87,9 +87,9 @@ If there is a shortage of a certain type of resource, try trading goods at a mar
 
 The _Builder's Stack_ is the stack of tiles used build the town round by round. The game ends at the end of the round when the _Builder's Stack_ is empty. The _Builder's Stack_ is created at the start of the game by shuffling and randomly drawing 20 tiles.
 
-### Builder's Token
+### Mayor's Token
 
-The _Builder's Token_ is a physical marker that indicates which player goes first each round. The player with the _Builder's Token_ expands the town by placing a new tile, and gets to place a worker first each round. Players can claim the _Builder's Token_ for themselves by being the first to place a worker on the _Town Hall_ tile on their turn.
+The _Mayor's Token_ is a physical marker that indicates which player goes first each round. The player with the _Mayor's Token_ expands the town by placing a new tile, and gets to place a worker first each round. Players can claim the _Mayor's Token_ for themselves by being the first to place a worker on the _Town Hall_ tile on their turn.
 
 ## Knights
 
@@ -113,7 +113,7 @@ Tokens represent resources that can be exchanged for other resources by claiming
 
 ### Town Hall
 
-The _Town Hall_ is the starting tile around which the town is built. Any player can claim the _Town Hall_ with a worker in order to take the _Builder's Token_ and go first on the next round.
+The _Town Hall_ is the starting tile around which the town is built. Any player can claim the _Town Hall_ with a worker in order to take the _Mayor's Token_ and go first on the next round.
 
 ### Warehouse
 
