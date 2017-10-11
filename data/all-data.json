@@ -2,10 +2,10 @@
   "tiles": [
     {
       "title": "Mayor's Token",
-      "code": "T00",
+      "code": "",
       "theme": {
         "type": "token",
-        "background": "town-hall"
+        "background": "throne"
       },
       "description": "This token represents who takes the first turn in a round. It can be claimed during a round by claiming the Town Hall tile with a worker.",
       "function": {},
