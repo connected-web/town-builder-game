@@ -28,7 +28,7 @@
   display: none;
 }
 
-.layout.transform-two-for-two .symbol.s2.convert-to {
+.layout.transform-two-for-two .symbol.s2.convert-to.base {
   display: block;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -56,7 +56,7 @@
   width: 300px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background: url('/data/assets/symbol-texture.png');
+  background: url('/data/assets/symbol-output-texture.png');
 }
 .layout.transform-two-for-two .symbol.s4 {
   display: block;

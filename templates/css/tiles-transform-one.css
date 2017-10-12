@@ -4,7 +4,7 @@
   top: 31%;
   left: 31%;
 }
-.layout.transform-one .symbol.convert-to {
+.layout.transform-one .symbol.convert-to.base {
   display: block;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -18,7 +18,7 @@
   left: 69%;
 }
 .layout.transform-one .symbol.s2.base {
-  background: url('/data/assets/symbol-texture.png');
+  background: url('/data/assets/symbol-output-texture.png');
 }
 .layout.transform-one .symbol.s2.border {
   background: rgba(0, 0, 0, 0.5);

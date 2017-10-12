@@ -5,7 +5,7 @@
   left: 29%;
 }
 
-.layout.transform-one-for-two .symbol.s1.convert-to {
+.layout.transform-one-for-two .symbol.s1.convert-to.base {
   display: block;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -33,7 +33,7 @@
   width: 300px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background: url('/data/assets/symbol-texture.png');
+  background: url('/data/assets/symbol-output-texture.png');
 }
 .layout.transform-one-for-two .symbol.s3 {
   display: block;

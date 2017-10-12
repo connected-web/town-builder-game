@@ -54,7 +54,7 @@ html, body {
   margin-top: -90px;
 }
 .symbol.base {
-  background: #FEFEFE;
+  background: url('/data/assets/symbol-input-texture.png');
   width: 160px;
   height: 160px;
   border-radius: 80px;
@@ -82,43 +82,94 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.s0.icon {
+  z-index: 300;
+}
+.s1.icon {
+  z-index: 290;
+}
+.s2.icon {
+  z-index: 280;
+}
+.s3.icon {
+  z-index: 270;
+}
+.s4.icon {
+  z-index: 260;
+}
+.s5.icon {
+  z-index: 250;
+}
+
 .s0.base {
-  z-index: 100;
+  z-index: 200;
 }
 .s1.base {
-  z-index: 90;
+  z-index: 190;
 }
 .s2.base {
-  z-index: 80;
+  z-index: 180;
 }
 .s3.base {
-  z-index: 70;
+  z-index: 170;
 }
 .s4.base {
-  z-index: 60;
+  z-index: 160;
 }
 .s5.base {
+  z-index: 150;
+}
+
+.s0.base.border {
+  z-index: 100;
+}
+.s1.base.border {
+  z-index: 90;
+}
+.s2.base.border {
+  z-index: 80;
+}
+.s3.base.border {
+  z-index: 70;
+}
+.s4.base.border {
+  z-index: 60;
+}
+.s5.base.border {
   z-index: 50;
 }
+
 .symbol.convert-to {
   width: 280px;
   height: 120px;
   margin-left: -140px;
   margin-top: -60px;
+
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  background-image: url('/data/assets/transform-arrow-short.png');
+  background-image: url('/data/assets/convert-to.png');
+
   position: absolute;
   top: 0;
   left: 0;
   display: none;
 }
 
+.symbol.convert-to.base {
+  display: none;
+}
+
 .symbol.convert-to.base.border {
   display: none;
   background: none;
+}
+
+.symbol.convert-to.icon {
+  display: none;
+  background-image: none;
 }
 
 .layer {

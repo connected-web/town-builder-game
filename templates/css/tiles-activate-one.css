@@ -4,13 +4,12 @@
   top: 25%;
   left: 50%;
 }
-.layout.activate-one .symbol.convert-to {
+.layout.activate-one .symbol.convert-to.base {
   display: block;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   left: 50%;
   top: 47%;
-  background-color: transparent;
 }
 .layout.activate-one .symbol.s2 {
   display: block;
@@ -19,7 +18,7 @@
   left: 50%;
 }
 .layout.activate-one .symbol.s2.base {
-  background: url('/data/assets/symbol-texture.png');
+  background: url('/data/assets/symbol-output-texture.png');
 }
 .layout.activate-one .symbol.s2.border {
   background: rgba(0, 0, 0, 0.5);

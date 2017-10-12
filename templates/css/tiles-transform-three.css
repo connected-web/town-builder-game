@@ -1,11 +1,3 @@
-.layout.transform-three .symbol.convert-to {
-  display: block;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  left: 50%;
-  top: 47%;
-  background-color: transparent;
-}
 .layout.transform-three .symbol.s0 {
   display: block;
   position: absolute;
@@ -38,6 +30,15 @@
 .layout.transform-three .symbol.s2.base {
   display: none;
 }
+
+.layout.transform-three .symbol.s3.convert-to.base {
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  left: 50%;
+  top: 47%;
+}
+
 .layout.transform-three .symbol.s4 {
   display: block;
   position: absolute;
@@ -45,7 +46,7 @@
   top: 75%;
 }
 .layout.transform-three .symbol.s4.base {
-  background: url('/data/assets/symbol-texture.png');
+  background: url('/data/assets/symbol-output-texture.png');
 }
 .layout.transform-three .symbol.s4.border {
   background: rgba(0, 0, 0, 0.5)

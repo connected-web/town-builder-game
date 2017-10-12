@@ -27,15 +27,17 @@
 .layout.transform-two .symbol.s1.base {
   display: none;
 }
-.layout.transform-two .symbol.s2.convert-to {
+
+.layout.transform-two .symbol.s2.convert-to.base {
   display: block;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   left: 50%;
   top: 50%;
 }
+
 .layout.transform-two .symbol.s3.base {
-  background: url('/data/assets/symbol-texture.png');
+  background: url('/data/assets/symbol-output-texture.png');
 }
 .layout.transform-two .symbol.s3.border {
   background: rgba(0, 0, 0, 0.5)
