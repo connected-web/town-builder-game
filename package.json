@@ -9,7 +9,7 @@
     "promise-path": "^1.2.4"
   },
   "devDependencies": {
-    "mocha": "^5.0.0",
+    "mocha": "^8.0.1",
     "node-hag": "^1.6.0",
     "npm-watch": "^0.2.0",
     "promise-path": "^1.2.5"
